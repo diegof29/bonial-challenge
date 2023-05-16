@@ -1,0 +1,588 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F1B9287F2A13B1FC002F5587 /* BonialCCApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1B9287E2A13B1FC002F5587 /* BonialCCApp.swift */; };
+		F1B928812A13B1FC002F5587 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1B928802A13B1FC002F5587 /* ContentView.swift */; };
+		F1B928832A13B1FC002F5587 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F1B928822A13B1FC002F5587 /* Assets.xcassets */; };
+		F1B928862A13B1FC002F5587 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F1B928852A13B1FC002F5587 /* Preview Assets.xcassets */; };
+		F1B928902A13B1FC002F5587 /* BonialCCTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1B9288F2A13B1FC002F5587 /* BonialCCTests.swift */; };
+		F1B9289A2A13B1FC002F5587 /* BonialCCUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1B928992A13B1FC002F5587 /* BonialCCUITests.swift */; };
+		F1B9289C2A13B1FC002F5587 /* BonialCCUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1B9289B2A13B1FC002F5587 /* BonialCCUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F1B9288C2A13B1FC002F5587 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F1B928732A13B1FC002F5587 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F1B9287A2A13B1FC002F5587;
+			remoteInfo = BonialCC;
+		};
+		F1B928962A13B1FC002F5587 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F1B928732A13B1FC002F5587 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F1B9287A2A13B1FC002F5587;
+			remoteInfo = BonialCC;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F1B9287B2A13B1FC002F5587 /* BonialCC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BonialCC.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F1B9287E2A13B1FC002F5587 /* BonialCCApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BonialCCApp.swift; sourceTree = "<group>"; };
+		F1B928802A13B1FC002F5587 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		F1B928822A13B1FC002F5587 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F1B928852A13B1FC002F5587 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F1B9288B2A13B1FC002F5587 /* BonialCCTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BonialCCTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F1B9288F2A13B1FC002F5587 /* BonialCCTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BonialCCTests.swift; sourceTree = "<group>"; };
+		F1B928952A13B1FC002F5587 /* BonialCCUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BonialCCUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F1B928992A13B1FC002F5587 /* BonialCCUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BonialCCUITests.swift; sourceTree = "<group>"; };
+		F1B9289B2A13B1FC002F5587 /* BonialCCUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BonialCCUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F1B928782A13B1FC002F5587 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F1B928882A13B1FC002F5587 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F1B928922A13B1FC002F5587 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F1B928722A13B1FC002F5587 = {
+			isa = PBXGroup;
+			children = (
+				F1B9287D2A13B1FC002F5587 /* BonialCC */,
+				F1B9288E2A13B1FC002F5587 /* BonialCCTests */,
+				F1B928982A13B1FC002F5587 /* BonialCCUITests */,
+				F1B9287C2A13B1FC002F5587 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F1B9287C2A13B1FC002F5587 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F1B9287B2A13B1FC002F5587 /* BonialCC.app */,
+				F1B9288B2A13B1FC002F5587 /* BonialCCTests.xctest */,
+				F1B928952A13B1FC002F5587 /* BonialCCUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F1B9287D2A13B1FC002F5587 /* BonialCC */ = {
+			isa = PBXGroup;
+			children = (
+				F1B9287E2A13B1FC002F5587 /* BonialCCApp.swift */,
+				F1B928802A13B1FC002F5587 /* ContentView.swift */,
+				F1B928822A13B1FC002F5587 /* Assets.xcassets */,
+				F1B928842A13B1FC002F5587 /* Preview Content */,
+			);
+			path = BonialCC;
+			sourceTree = "<group>";
+		};
+		F1B928842A13B1FC002F5587 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				F1B928852A13B1FC002F5587 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F1B9288E2A13B1FC002F5587 /* BonialCCTests */ = {
+			isa = PBXGroup;
+			children = (
+				F1B9288F2A13B1FC002F5587 /* BonialCCTests.swift */,
+			);
+			path = BonialCCTests;
+			sourceTree = "<group>";
+		};
+		F1B928982A13B1FC002F5587 /* BonialCCUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F1B928992A13B1FC002F5587 /* BonialCCUITests.swift */,
+				F1B9289B2A13B1FC002F5587 /* BonialCCUITestsLaunchTests.swift */,
+			);
+			path = BonialCCUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F1B9287A2A13B1FC002F5587 /* BonialCC */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F1B9289F2A13B1FC002F5587 /* Build configuration list for PBXNativeTarget "BonialCC" */;
+			buildPhases = (
+				F1B928772A13B1FC002F5587 /* Sources */,
+				F1B928782A13B1FC002F5587 /* Frameworks */,
+				F1B928792A13B1FC002F5587 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BonialCC;
+			productName = BonialCC;
+			productReference = F1B9287B2A13B1FC002F5587 /* BonialCC.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F1B9288A2A13B1FC002F5587 /* BonialCCTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F1B928A22A13B1FC002F5587 /* Build configuration list for PBXNativeTarget "BonialCCTests" */;
+			buildPhases = (
+				F1B928872A13B1FC002F5587 /* Sources */,
+				F1B928882A13B1FC002F5587 /* Frameworks */,
+				F1B928892A13B1FC002F5587 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F1B9288D2A13B1FC002F5587 /* PBXTargetDependency */,
+			);
+			name = BonialCCTests;
+			productName = BonialCCTests;
+			productReference = F1B9288B2A13B1FC002F5587 /* BonialCCTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F1B928942A13B1FC002F5587 /* BonialCCUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F1B928A52A13B1FC002F5587 /* Build configuration list for PBXNativeTarget "BonialCCUITests" */;
+			buildPhases = (
+				F1B928912A13B1FC002F5587 /* Sources */,
+				F1B928922A13B1FC002F5587 /* Frameworks */,
+				F1B928932A13B1FC002F5587 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F1B928972A13B1FC002F5587 /* PBXTargetDependency */,
+			);
+			name = BonialCCUITests;
+			productName = BonialCCUITests;
+			productReference = F1B928952A13B1FC002F5587 /* BonialCCUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F1B928732A13B1FC002F5587 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					F1B9287A2A13B1FC002F5587 = {
+						CreatedOnToolsVersion = 14.3;
+					};
+					F1B9288A2A13B1FC002F5587 = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = F1B9287A2A13B1FC002F5587;
+					};
+					F1B928942A13B1FC002F5587 = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = F1B9287A2A13B1FC002F5587;
+					};
+				};
+			};
+			buildConfigurationList = F1B928762A13B1FC002F5587 /* Build configuration list for PBXProject "BonialCC" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F1B928722A13B1FC002F5587;
+			productRefGroup = F1B9287C2A13B1FC002F5587 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F1B9287A2A13B1FC002F5587 /* BonialCC */,
+				F1B9288A2A13B1FC002F5587 /* BonialCCTests */,
+				F1B928942A13B1FC002F5587 /* BonialCCUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F1B928792A13B1FC002F5587 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1B928862A13B1FC002F5587 /* Preview Assets.xcassets in Resources */,
+				F1B928832A13B1FC002F5587 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F1B928892A13B1FC002F5587 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F1B928932A13B1FC002F5587 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F1B928772A13B1FC002F5587 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1B928812A13B1FC002F5587 /* ContentView.swift in Sources */,
+				F1B9287F2A13B1FC002F5587 /* BonialCCApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F1B928872A13B1FC002F5587 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1B928902A13B1FC002F5587 /* BonialCCTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F1B928912A13B1FC002F5587 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1B9289C2A13B1FC002F5587 /* BonialCCUITestsLaunchTests.swift in Sources */,
+				F1B9289A2A13B1FC002F5587 /* BonialCCUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F1B9288D2A13B1FC002F5587 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F1B9287A2A13B1FC002F5587 /* BonialCC */;
+			targetProxy = F1B9288C2A13B1FC002F5587 /* PBXContainerItemProxy */;
+		};
+		F1B928972A13B1FC002F5587 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F1B9287A2A13B1FC002F5587 /* BonialCC */;
+			targetProxy = F1B928962A13B1FC002F5587 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		F1B9289D2A13B1FC002F5587 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F1B9289E2A13B1FC002F5587 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F1B928A02A13B1FC002F5587 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"BonialCC/Preview Content\"";
+				DEVELOPMENT_TEAM = Z8BPP9MV7V;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.diegopais.BonialCC;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F1B928A12A13B1FC002F5587 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"BonialCC/Preview Content\"";
+				DEVELOPMENT_TEAM = Z8BPP9MV7V;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.diegopais.BonialCC;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F1B928A32A13B1FC002F5587 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Z8BPP9MV7V;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.diegopais.BonialCCTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BonialCC.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/BonialCC";
+			};
+			name = Debug;
+		};
+		F1B928A42A13B1FC002F5587 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Z8BPP9MV7V;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.diegopais.BonialCCTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BonialCC.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/BonialCC";
+			};
+			name = Release;
+		};
+		F1B928A62A13B1FC002F5587 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Z8BPP9MV7V;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.diegopais.BonialCCUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BonialCC;
+			};
+			name = Debug;
+		};
+		F1B928A72A13B1FC002F5587 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Z8BPP9MV7V;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.diegopais.BonialCCUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BonialCC;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F1B928762A13B1FC002F5587 /* Build configuration list for PBXProject "BonialCC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F1B9289D2A13B1FC002F5587 /* Debug */,
+				F1B9289E2A13B1FC002F5587 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F1B9289F2A13B1FC002F5587 /* Build configuration list for PBXNativeTarget "BonialCC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F1B928A02A13B1FC002F5587 /* Debug */,
+				F1B928A12A13B1FC002F5587 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F1B928A22A13B1FC002F5587 /* Build configuration list for PBXNativeTarget "BonialCCTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F1B928A32A13B1FC002F5587 /* Debug */,
+				F1B928A42A13B1FC002F5587 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F1B928A52A13B1FC002F5587 /* Build configuration list for PBXNativeTarget "BonialCCUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F1B928A62A13B1FC002F5587 /* Debug */,
+				F1B928A72A13B1FC002F5587 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F1B928732A13B1FC002F5587 /* Project object */;
+}
