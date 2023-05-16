@@ -125,7 +125,7 @@ final class BrochureTests: XCTestCase {
                         "type": "BROCHURE",
                         "pageCount": 6,
                         "publisher": {
-                            "id": 1024,
+                            "id": 1024,  
                             "name": "MediaMarkt",
                             "type": "RETAILER"
                         },
