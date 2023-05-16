@@ -1,0 +1,974 @@
+{
+    "_embedded": {
+        "contents": [
+            {
+                "placement": "ad_placement__shelf_sort_managed",
+                "adFormat": "ad_format__brochure_card_cover",
+                "contentFormatSource": "destinationsApi",
+                "contentType": "brochure",
+                "content": {
+                    "id": 1262188890,
+                    "contentId": "213fab7b-18de-486a-a4ab-11f01471c006",
+                    "title": "WIEDER PREISE STREICHEN MACHT FREUDE",
+                    "validFrom": "2020-05-21T07:00:00.000+0000",
+                    "validUntil": "3020-06-02T07:00:00.000+0000",
+                    "publishedFrom": "2020-05-21T07:00:00.000+0000",
+                    "publishedUntil": "3020-06-02T07:00:00.000+0000",
+                    "type": "BROCHURE",
+                    "pageCount": 6,
+                    "publisher": {
+                        "id": 1024,
+                        "name": "MediaMarkt",
+                        "type": "RETAILER"
+                    },
+                    "retailer": {
+                        "id": 209835338,
+                        "name": "Media-Markt"
+                    },
+                    "brochureImage": "https://content-media.bonial.biz/e5da490f-4f10-473a-a4b6-7ef7e8c387b0/preview.jpg",
+                    "isEcommerce": true,
+                    "distance": 0.2648915828765783,
+                    "hideValidityDate": false
+                }
+            },
+            {
+                "placement": "ad_placement__shelf_sort_managed",
+                "adFormat": "ad_format__brochure_card_cover",
+                "contentFormatSource": "destinationsApi",
+                "contentType": "brochure",
+                "content": {
+                    "id": 1263798588,
+                    "contentId": "4df2d2df-9319-4153-b011-da0bcedb8376",
+                    "title": "Frische ECHT BILLIG!",
+                    "validFrom": "2020-05-13T22:00:00.000+0000",
+                    "validUntil": "3020-05-20T18:00:00.000+0000",
+                    "publishedFrom": "2020-05-13T18:00:00.000+0000",
+                    "publishedUntil": "3020-05-16T23:00:00.000+0000",
+                    "type": "BROCHURE",
+                    "pageCount": 40,
+                    "publisher": {
+                        "id": 424316869,
+                        "name": "Kaufland",
+                        "type": "RETAILER"
+                    },
+                    "retailer": {
+                        "id": 424316951,
+                        "name": "Kaufland"
+                    },
+                    "brochureImage": "https://content-media.bonial.biz/ef688ab1-c0c6-47d9-85af-8170cbcbeea9/preview.jpg",
+                    "isEcommerce": false,
+                    "distance": 0.08609641687500443,
+                    "hideValidityDate": false
+                }
+            },
+            {
+                "placement": "ad_placement__shelf_sort_managed",
+                "adFormat": "ad_format__brochure_card_cover",
+                "contentFormatSource": "destinationsApi",
+                "contentType": "brochure",
+                "content": {
+                    "id": 1264064147,
+                    "contentId": "2bb171a4-4498-4c54-8999-460a617ecddf",
+                    "title": "Jetzt starten wir durch!",
+                    "validFrom": "2020-05-11T15:00:00.000+0000",
+                    "validUntil": "3020-05-19T21:00:00.000+0000",
+                    "publishedFrom": "2020-05-11T15:00:00.000+0000",
+                    "publishedUntil": "3020-05-19T21:00:00.000+0000",
+                    "type": "BROCHURE",
+                    "pageCount": 8,
+                    "publisher": {
+                        "id": 46660,
+                        "name": "Höffner",
+                        "type": "RETAILER"
+                    },
+                    "retailer": {
+                        "id": 209835146,
+                        "name": "Höffner"
+                    },
+                    "brochureImage": "https://content-media.bonial.biz/411d4511-d664-47ac-b19e-70086ad30821/preview.jpg",
+                    "isEcommerce": true,
+                    "distance": 6.3103344858429145,
+                    "hideValidityDate": false
+                }
+            },
+            {
+                "placement": "ad_placement__shelf_sort_managed",
+                "adFormat": "ad_format__brochure_card_cover",
+                "contentFormatSource": "destinationsApi",
+                "contentType": "brochure",
+                "content": {
+                    "id": 1262142469,
+                    "contentId": "ff6e5b53-2c13-4bbb-9f53-cf01e6ae43bc",
+                    "title": "Gemeinsame Glücksmomente zum kleinen Preis",
+                    "validFrom": "2020-05-06T22:00:00.000+0000",
+                    "validUntil": "3020-05-17T21:00:00.000+0000",
+                    "publishedFrom": "2020-05-06T22:00:00.000+0000",
+                    "publishedUntil": "3020-05-16T21:00:00.000+0000",
+                    "type": "BROCHURE",
+                    "pageCount": 4,
+                    "publisher": {
+                        "id": 979,
+                        "name": "Fressnapf",
+                        "type": "RETAILER"
+                    },
+                    "retailer": {
+                        "id": 209834828,
+                        "name": "Fressnapf"
+                    },
+                    "brochureImage": "https://content-media.bonial.biz/85f90d4a-37f6-457b-95c3-d534f9c51742/preview.jpg",
+                    "isEcommerce": false,
+                    "distance": 2.7062226058131382,
+                    "hideValidityDate": false
+                }
+            },
+            {
+                "placement": "ad_placement__shelf_sort_managed",
+                "adFormat": "ad_format__brochure_card_cover",
+                "contentFormatSource": "destinationsApi",
+                "contentType": "brochure",
+                "content": {
+                    "id": 1264668966,
+                    "contentId": "3fbef54b-712c-4fba-88bd-5fa02e8894bb",
+                    "title": "WOCHENENDKRACHER",
+                    "validFrom": "2020-05-14T22:00:00.000+0000",
+                    "validUntil": "3020-05-16T18:00:00.000+0000",
+                    "publishedFrom": "2020-05-14T18:00:00.000+0000",
+                    "publishedUntil": "3020-05-16T18:00:00.000+0000",
+                    "type": "BROCHURE",
+                    "pageCount": 3,
+                    "publisher": {
+                        "id": 1034,
+                        "name": "Netto Marken-Discount",
+                        "type": "RETAILER"
+                    },
+                    "retailer": {
+                        "id": 209834598,
+                        "name": "Netto Marken-Discount"
+                    },
+                    "brochureImage": "https://content-media.bonial.biz/646bfe3b-2c28-4e65-96db-0c8fa45deab6/preview.jpg",
+                    "isEcommerce": false,
+                    "distance": 0.3037995991440205,
+                    "hideValidityDate": false
+                }
+            },
+            {
+                "placement": "ad_placement__shelf_sort_managed",
+                "adFormat": "ad_format__brochure_card_cover",
+                "contentFormatSource": "destinationsApi",
+                "contentType": "brochure",
+                "content": {
+                    "id": 1264674827,
+                    "contentId": "5e7239d1-072b-4d1b-8dba-c279e5991c08",
+                    "title": "SUPER WOCHENENDE",
+                    "validFrom": "2020-05-13T22:00:00.000+0000",
+                    "validUntil": "3020-05-16T18:00:00.000+0000",
+                    "publishedFrom": "2020-05-13T18:00:00.000+0000",
+                    "publishedUntil": "3020-05-16T18:00:00.000+0000",
+                    "type": "BROCHURE",
+                    "pageCount": 11,
+                    "publisher": {
+                        "id": 1034,
+                        "name": "Netto Marken-Discount",
+                        "type": "RETAILER"
+                    },
+                    "retailer": {
+                        "id": 209834598,
+                        "name": "Netto Marken-Discount"
+                    },
+                    "brochureImage": "https://content-media.bonial.biz/b67cdb92-3ca7-4bbf-b3f5-837406963feb/preview.jpg",
+                    "isEcommerce": false,
+                    "distance": 0.3037995991440205,
+                    "hideValidityDate": false
+                }
+            },
+            {
+                "placement": "ad_placement__shelf_sort_managed",
+                "adFormat": "ad_format__brochure_premium",
+                "contentFormatSource": "destinationsApi",
+                "contentType": "brochurePremium",
+                "content": {
+                    "id": 1264019127,
+                    "contentId": "49270dd9-05bd-427e-a587-f40cbe2a6d9b",
+                    "title": "SMART GESPART!",
+                    "validFrom": "2020-05-13T07:00:00.000+0000",
+                    "validUntil": "3020-05-21T07:00:00.000+0000",
+                    "publishedFrom": "2020-05-13T07:00:00.000+0000",
+                    "publishedUntil": "3020-05-21T07:00:00.000+0000",
+                    "type": "BROCHURE",
+                    "pageCount": 10,
+                    "publisher": {
+                        "id": 1065,
+                        "name": "Saturn",
+                        "type": "RETAILER"
+                    },
+                    "retailer": {
+                        "id": 209835385,
+                        "name": "Saturn"
+                    },
+                    "brochureImage": "https://content-media.bonial.biz/552d83f6-7ac5-44a0-8552-f51194361f9b/preview.jpg",
+                    "isEcommerce": true,
+                    "distance": 0.37313717401649876,
+                    "hideValidityDate": false
+                }
+            },
+            {
+                "placement": "ad_placement__shelf_sort_managed",
+                "adFormat": "ad_format__brochure_card_cover",
+                "contentFormatSource": "destinationsApi",
+                "contentType": "brochure",
+                "content": {
+                    "id": 1264019101,
+                    "contentId": "8ca75abd-20a8-4d6f-a085-b2697cba6b0b",
+                    "title": ">> WIEDER GEÖFFNET. UND PREISE GESTRICHEN!",
+                    "validFrom": "2020-05-11T07:00:00.000+0000",
+                    "validUntil": "3020-05-21T07:00:00.000+0000",
+                    "publishedFrom": "2020-05-11T13:00:00.000+0000",
+                    "publishedUntil": "3020-05-21T07:00:00.000+0000",
+                    "type": "BROCHURE",
+                    "pageCount": 5,
+                    "publisher": {
+                        "id": 1065,
+                        "name": "Saturn",
+                        "type": "RETAILER"
+                    },
+                    "retailer": {
+                        "id": 209835385,
+                        "name": "Saturn"
+                    },
+                    "brochureImage": "https://content-media.bonial.biz/e8f79e2a-d506-4d57-b0c0-94105295117f/preview.jpg",
+                    "isEcommerce": false,
+                    "distance": 0.37313717401649876,
+                    "hideValidityDate": false
+                }
+            },
+            {
+                "placement": "ad_placement__shelf_sort_managed",
+                "adFormat": "ad_format__brochure_card_cover",
+                "contentFormatSource": "destinationsApi",
+                "contentType": "brochure",
+                "content": {
+                    "id": 1262188868,
+                    "contentId": "69973898-0caf-4ef9-a32f-c95ce3c8e61a",
+                    "title": "WIEDER PREISE STREICHEN MACHT FREUDE",
+                    "validFrom": "2020-05-10T22:00:00.000+0000",
+                    "validUntil": "3020-05-21T07:00:00.000+0000",
+                    "publishedFrom": "2020-05-10T22:00:00.000+0000",
+                    "publishedUntil": "3020-05-21T07:00:00.000+0000",
+                    "type": "BROCHURE",
+                    "pageCount": 5,
+                    "publisher": {
+                        "id": 1024,
+                        "name": "MediaMarkt",
+                        "type": "RETAILER"
+                    },
+                    "retailer": {
+                        "id": 209835338,
+                        "name": "Media-Markt"
+                    },
+                    "brochureImage": "https://content-media.bonial.biz/ebe6832b-8923-4ff5-9bb3-0987dc959b4d/preview.jpg",
+                    "isEcommerce": false,
+                    "distance": 0.46465070805140263,
+                    "hideValidityDate": false
+                }
+            },
+            {
+                "placement": "ad_placement__shelf_sort_managed",
+                "adFormat": "ad_format__brochure_premium",
+                "contentFormatSource": "destinationsApi",
+                "contentType": "brochurePremium",
+                "content": {
+                    "id": 1262558049,
+                    "contentId": "21365c2f-2fc6-418a-9cb7-d2fc8580e701",
+                    "title": "Click & Collect: Jetzt bestellen und abholen!",
+                    "validFrom": "2020-05-10T22:00:00.000+0000",
+                    "validUntil": "3020-05-24T21:00:00.000+0000",
+                    "publishedFrom": "2020-05-10T22:00:00.000+0000",
+                    "publishedUntil": "3020-05-24T21:00:00.000+0000",
+                    "type": "DYNAMIC",
+                    "pageCount": 0,
+                    "publisher": {
+                        "id": 1002,
+                        "name": "IKEA",
+                        "type": "RETAILER"
+                    },
+                    "retailer": {
+                        "id": 209834704,
+                        "name": "IKEA"
+                    },
+                    "brochureImage": "https://content-media.bonial.biz/4e2def81-b3a0-44c6-b0e1-432762e26ac1/preview.jpg",
+                    "isEcommerce": true,
+                    "distance": 6.536127798781515,
+                    "hideValidityDate": false
+                }
+            },
+            {
+                "placement": "ad_placement__shelf_sort_managed",
+                "adFormat": "ad_format__brochure_card_cover",
+                "contentFormatSource": "destinationsApi",
+                "contentType": "brochure",
+                "content": {
+                    "id": 1261139782,
+                    "contentId": "7e04c220-8005-4dd1-abc4-137b69c7e651",
+                    "title": "Aktuelle Angebote",
+                    "validFrom": "2020-05-10T22:00:00.000+0000",
+                    "validUntil": "3020-05-16T21:00:00.000+0000",
+                    "publishedFrom": "2020-05-10T22:00:00.000+0000",
+                    "publishedUntil": "3020-05-16T21:00:00.000+0000",
+                    "type": "BROCHURE",
+                    "pageCount": 20,
+                    "publisher": {
+                        "id": 983,
+                        "name": "Globus-Baumarkt",
+                        "type": "RETAILER"
+                    },
+                    "retailer": {
+                        "id": 209835008,
+                        "name": "Globus-Baumarkt"
+                    },
+                    "brochureImage": "https://content-media.bonial.biz/97680a41-8d2a-463b-baff-87eac1782458/preview.jpg",
+                    "isEcommerce": false,
+                    "distance": 6.736619138753564,
+                    "hideValidityDate": false
+                }
+            },
+            {
+                "placement": "ad_placement__shelf_sort_managed",
+                "adFormat": "ad_format__brochure_card_cover",
+                "contentFormatSource": "destinationsApi",
+                "contentType": "brochure",
+                "content": {
+                    "id": 1263568372,
+                    "contentId": "75ce2622-c4b4-4fcb-9d96-741e79314f74",
+                    "title": "GARANTIERT NIRGENDWO GÜNSTIGER",
+                    "validFrom": "2020-05-10T22:00:00.000+0000",
+                    "validUntil": "3020-05-16T18:00:00.000+0000",
+                    "publishedFrom": "2020-05-09T18:00:00.000+0000",
+                    "publishedUntil": "3020-05-16T18:00:00.000+0000",
+                    "type": "BROCHURE",
+                    "pageCount": 41,
+                    "publisher": {
+                        "id": 1034,
+                        "name": "Netto Marken-Discount",
+                        "type": "RETAILER"
+                    },
+                    "retailer": {
+                        "id": 209834598,
+                        "name": "Netto Marken-Discount"
+                    },
+                    "brochureImage": "https://content-media.bonial.biz/c7512e39-7cdd-49a6-863a-ded0a109eefe/preview.jpg",
+                    "isEcommerce": false,
+                    "distance": 0.3037995991440205,
+                    "hideValidityDate": false
+                }
+            },
+            {
+                "placement": "ad_placement__shelf_sort_managed",
+                "adFormat": "ad_format__brochure_card_cover",
+                "contentFormatSource": "destinationsApi",
+                "contentType": "brochure",
+                "content": {
+                    "id": 1260682277,
+                    "contentId": "dc004494-ef2c-4808-a4da-40d5d2430a97",
+                    "title": "Aktuelle Angebote! ",
+                    "validFrom": "2020-05-03T22:00:00.000+0000",
+                    "validUntil": "3020-05-17T18:00:00.000+0000",
+                    "publishedFrom": "2020-05-03T22:00:00.000+0000",
+                    "publishedUntil": "3020-05-17T18:00:00.000+0000",
+                    "type": "BROCHURE",
+                    "pageCount": 4,
+                    "publisher": {
+                        "id": 1114127402,
+                        "name": "Matratzen Concord",
+                        "type": "RETAILER"
+                    },
+                    "retailer": {
+                        "id": 1114127450,
+                        "name": "Matratzen Concord"
+                    },
+                    "brochureImage": "https://content-media.bonial.biz/2efbff98-230d-4c3d-90ec-455728b3e436/preview.jpg",
+                    "isEcommerce": false,
+                    "distance": 1.6387170385310363,
+                    "hideValidityDate": false
+                }
+            },
+            {
+                "placement": "ad_placement__shelf_sort_managed",
+                "adFormat": "ad_format__brochure_card_cover",
+                "contentFormatSource": "destinationsApi",
+                "contentType": "brochure",
+                "content": {
+                    "id": 1264107361,
+                    "contentId": "9284c827-68dd-4884-96d7-737d0ffc9fcc",
+                    "title": "Grosse Küchen-Sparwochen! ",
+                    "validFrom": "2020-05-11T22:00:00.000+0000",
+                    "validUntil": "3020-05-31T21:00:00.000+0000",
+                    "publishedFrom": "2020-05-12T12:00:00.000+0000",
+                    "publishedUntil": "3020-05-31T21:00:00.000+0000",
+                    "type": "BROCHURE",
+                    "pageCount": 32,
+                    "publisher": {
+                        "id": 34905198,
+                        "name": "Möbel Kraft",
+                        "type": "RETAILER"
+                    },
+                    "retailer": {
+                        "id": 209834620,
+                        "name": "Möbel Kraft"
+                    },
+                    "brochureImage": "https://content-media.bonial.biz/5789eba3-9118-49fc-bb1b-4272a4345f19/preview.jpg",
+                    "isEcommerce": false,
+                    "distance": 3.6009112796841993,
+                    "hideValidityDate": false
+                }
+            },
+            {
+                "placement": "ad_placement__shelf_sort_managed",
+                "adFormat": "ad_format__brochure_card_cover",
+                "contentFormatSource": "destinationsApi",
+                "contentType": "brochure",
+                "content": {
+                    "id": 1264107380,
+                    "contentId": "9b81f88c-8b0d-4742-8196-f4824fbee714",
+                    "title": "KRAFT Spar-Wochen!",
+                    "validFrom": "2020-05-11T22:00:00.000+0000",
+                    "validUntil": "3020-06-13T21:00:00.000+0000",
+                    "publishedFrom": "2020-05-12T12:00:00.000+0000",
+                    "publishedUntil": "3020-06-13T21:00:00.000+0000",
+                    "type": "BROCHURE",
+                    "pageCount": 24,
+                    "publisher": {
+                        "id": 34905198,
+                        "name": "Möbel Kraft",
+                        "type": "RETAILER"
+                    },
+                    "retailer": {
+                        "id": 209834620,
+                        "name": "Möbel Kraft"
+                    },
+                    "brochureImage": "https://content-media.bonial.biz/90482ad6-0219-4c23-a4db-e81382699f8b/preview.jpg",
+                    "isEcommerce": false,
+                    "distance": 3.6009112796841993,
+                    "hideValidityDate": false
+                }
+            },
+            {
+                "placement": "ad_placement__shelf_sort_managed",
+                "adFormat": "ad_format__brochure_card_cover",
+                "contentFormatSource": "destinationsApi",
+                "contentType": "brochure",
+                "content": {
+                    "id": 1251069801,
+                    "contentId": "4b99643b-6bd5-4d6e-b1e4-899cf9f72bf5",
+                    "title": "Handzettel KW 19",
+                    "validFrom": "2020-04-28T22:00:00.000+0000",
+                    "validUntil": "3020-05-30T21:00:00.000+0000",
+                    "publishedFrom": "2020-04-28T22:00:00.000+0000",
+                    "publishedUntil": "3020-05-30T21:00:00.000+0000",
+                    "type": "BROCHURE",
+                    "pageCount": 48,
+                    "publisher": {
+                        "id": 92,
+                        "name": "BAUHAUS",
+                        "type": "RETAILER"
+                    },
+                    "retailer": {
+                        "id": 209834337,
+                        "name": "BAUHAUS"
+                    },
+                    "brochureImage": "https://content-media.bonial.biz/5f2c4df6-faf3-40f3-8727-f5b18d122fb3/preview.jpg",
+                    "isEcommerce": true,
+                    "distance": 4.166612763704836,
+                    "hideValidityDate": false
+                }
+            },
+            {
+                "placement": "ad_placement__shelf_sort_managed",
+                "adFormat": "ad_format__brochure_card_cover",
+                "contentFormatSource": "destinationsApi",
+                "contentType": "brochure",
+                "content": {
+                    "id": 1262357048,
+                    "contentId": "07cc79fc-8f97-4e9b-a8f1-be29ef43ca39",
+                    "title": "AUF IN DEN GARTEN!",
+                    "validFrom": "2020-05-07T14:00:00.000+0000",
+                    "validUntil": "3020-05-17T21:00:00.000+0000",
+                    "publishedFrom": "2020-05-07T14:00:00.000+0000",
+                    "publishedUntil": "3020-05-17T21:00:00.000+0000",
+                    "type": "BROCHURE",
+                    "pageCount": 6,
+                    "publisher": {
+                        "id": 1042,
+                        "name": "OBI",
+                        "type": "RETAILER"
+                    },
+                    "retailer": {
+                        "id": 209834832,
+                        "name": "OBI"
+                    },
+                    "brochureImage": "https://content-media.bonial.biz/b3cefbfc-2cbd-416f-aded-12c39359abfc/preview.jpg",
+                    "isEcommerce": true,
+                    "distance": 2.3666010005838434,
+                    "hideValidityDate": false
+                }
+            },
+            {
+                "placement": "ad_placement__shelf_sort_managed",
+                "adFormat": "ad_format__brochure_card_cover",
+                "contentFormatSource": "destinationsApi",
+                "contentType": "brochure",
+                "content": {
+                    "id": 1221240462,
+                    "contentId": "6bfbd71c-d839-494b-8e9b-d92525cc4205",
+                    "title": "Sommermöbel",
+                    "validFrom": "2020-02-29T23:00:00.000+0000",
+                    "validUntil": "3020-05-31T21:00:00.000+0000",
+                    "publishedFrom": "2020-02-29T23:00:00.000+0000",
+                    "publishedUntil": "3020-05-31T21:00:00.000+0000",
+                    "type": "BROCHURE",
+                    "pageCount": 156,
+                    "publisher": {
+                        "id": 92,
+                        "name": "BAUHAUS",
+                        "type": "RETAILER"
+                    },
+                    "retailer": {
+                        "id": 209834337,
+                        "name": "BAUHAUS"
+                    },
+                    "brochureImage": "https://content-media.bonial.biz/2eb65b81-0046-47e3-923e-14ff249df486/preview.jpg",
+                    "isEcommerce": false,
+                    "distance": 4.166612763704836,
+                    "hideValidityDate": false
+                }
+            },
+            {
+                "placement": "ad_placement__shelf_sort_managed",
+                "adFormat": "ad_format__brochure_card_cover",
+                "contentFormatSource": "destinationsApi",
+                "contentType": "brochure",
+                "content": {
+                    "id": 1265270682,
+                    "contentId": "e96dd6f7-9a4c-4c20-b9d5-bc42920c863f",
+                    "title": "Kobold - Bereit, wenn es darauf ankommt!",
+                    "validFrom": "2020-05-13T22:00:00.000+0000",
+                    "validUntil": "3020-06-01T19:00:00.000+0000",
+                    "publishedFrom": "2020-05-15T09:00:00.000+0000",
+                    "publishedUntil": "3020-06-01T19:00:00.000+0000",
+                    "type": "DYNAMIC",
+                    "pageCount": 0,
+                    "publisher": {
+                        "id": 447410934,
+                        "name": "Vorwerk",
+                        "type": "RETAILER"
+                    },
+                    "retailer": {
+                        "id": 447410960,
+                        "name": "Vorwerk"
+                    },
+                    "brochureImage": "https://content-media.bonial.biz/4282c83c-b303-4cf0-9d26-21ac2980e413/preview.jpg",
+                    "isEcommerce": false,
+                    "distance": 1.8377849939756696,
+                    "hideValidityDate": false
+                }
+            },
+            {
+                "placement": "ad_placement__shelf_sort_managed",
+                "adFormat": "ad_format__brochure_card_cover",
+                "contentFormatSource": "destinationsApi",
+                "contentType": "brochure",
+                "content": {
+                    "id": 1265256236,
+                    "contentId": "e35e2d5e-6940-4d94-9d92-1b844e2fb902",
+                    "title": "Pack die Tüte voll!",
+                    "validFrom": "2020-05-10T22:00:00.000+0000",
+                    "validUntil": "3020-05-17T21:00:00.000+0000",
+                    "publishedFrom": "2020-05-15T08:00:00.000+0000",
+                    "publishedUntil": "3020-05-15T21:00:00.000+0000",
+                    "type": "BROCHURE",
+                    "pageCount": 1,
+                    "publisher": {
+                        "id": 25678496,
+                        "name": "Ernsting's family",
+                        "type": "RETAILER"
+                    },
+                    "retailer": {
+                        "id": 209835013,
+                        "name": "Ernstings family"
+                    },
+                    "brochureImage": "https://content-media.bonial.biz/fc85fdc2-d165-429b-809b-82876031d8be/preview.jpg",
+                    "isEcommerce": false,
+                    "distance": 0.15966762045160535,
+                    "hideValidityDate": false
+                }
+            },
+            {
+                "placement": "ad_placement__shelf_sort_managed",
+                "adFormat": "ad_format__brochure_card_cover",
+                "contentFormatSource": "destinationsApi",
+                "contentType": "brochure",
+                "content": {
+                    "id": 1264364832,
+                    "contentId": "a303aa48-e204-461b-b92b-cac4f3b12f15",
+                    "title": "Gartenmöbel Kollektion 2020",
+                    "validFrom": "2020-03-15T23:00:00.000+0000",
+                    "validUntil": "3020-06-15T21:00:00.000+0000",
+                    "publishedFrom": "2020-05-13T22:00:00.000+0000",
+                    "publishedUntil": "3020-05-17T22:00:00.000+0000",
+                    "type": "BROCHURE",
+                    "pageCount": 76,
+                    "publisher": {
+                        "id": 34936926,
+                        "name": "RAHAUS",
+                        "type": "RETAILER"
+                    },
+                    "retailer": {
+                        "id": 209834989,
+                        "name": "RAHAUS"
+                    },
+                    "brochureImage": "https://content-media.bonial.biz/0af57139-b3e2-4f61-baf7-27df31e9bd2c/preview.jpg",
+                    "isEcommerce": false,
+                    "distance": 5.486630018641739,
+                    "hideValidityDate": false
+                }
+            },
+            {
+                "placement": "ad_placement__shelf_sort_managed",
+                "adFormat": "ad_format__brochure_card_cover",
+                "contentFormatSource": "destinationsApi",
+                "contentType": "brochure",
+                "content": {
+                    "id": 1264364940,
+                    "contentId": "76793510-cddd-429d-87f1-d62a94bd6f52",
+                    "title": "Gartenhäuser",
+                    "validFrom": "2020-04-08T22:00:00.000+0000",
+                    "validUntil": "3020-06-15T21:00:00.000+0000",
+                    "publishedFrom": "2020-05-13T22:00:00.000+0000",
+                    "publishedUntil": "3020-05-17T22:00:00.000+0000",
+                    "type": "BROCHURE",
+                    "pageCount": 16,
+                    "publisher": {
+                        "id": 34936926,
+                        "name": "RAHAUS",
+                        "type": "RETAILER"
+                    },
+                    "retailer": {
+                        "id": 209834989,
+                        "name": "RAHAUS"
+                    },
+                    "brochureImage": "https://content-media.bonial.biz/02850f1e-1c45-4015-8c19-3979f619482a/preview.jpg",
+                    "isEcommerce": false,
+                    "distance": 5.486630018641739,
+                    "hideValidityDate": false
+                }
+            },
+            {
+                "placement": "ad_placement__shelf_sort_managed",
+                "adFormat": "ad_format__brochure_card_cover",
+                "contentFormatSource": "destinationsApi",
+                "contentType": "brochure",
+                "content": {
+                    "id": 1264341252,
+                    "contentId": "0e71a10a-a385-40ff-b0c0-798aa9b089f9",
+                    "title": "DER SOMMER KANN KOMMEN",
+                    "validFrom": "2020-05-13T09:00:00.000+0000",
+                    "validUntil": "3020-05-31T21:00:00.000+0000",
+                    "publishedFrom": "2020-05-13T11:00:00.000+0000",
+                    "publishedUntil": "3020-05-31T21:00:00.000+0000",
+                    "type": "BROCHURE",
+                    "pageCount": 16,
+                    "publisher": {
+                        "id": 1042,
+                        "name": "OBI",
+                        "type": "RETAILER"
+                    },
+                    "retailer": {
+                        "id": 209834832,
+                        "name": "OBI"
+                    },
+                    "brochureImage": "https://content-media.bonial.biz/da11df90-7bf1-4e09-9f97-1e13e5cdb886/preview.jpg",
+                    "isEcommerce": false,
+                    "distance": 2.3666010005838434,
+                    "hideValidityDate": false
+                }
+            },
+            {
+                "placement": "ad_placement__shelf_sort_managed",
+                "adFormat": "ad_format__brochure_premium",
+                "contentFormatSource": "destinationsApi",
+                "contentType": "brochurePremium",
+                "content": {
+                    "id": 1262188846,
+                    "contentId": "38f36b70-e0b8-4a4f-9b3e-b070a77d7153",
+                    "title": "WIEDER RICHTIG SPAREN MACHT FREUDE!",
+                    "validFrom": "2020-05-13T07:00:00.000+0000",
+                    "validUntil": "3020-05-21T07:00:00.000+0000",
+                    "publishedFrom": "2020-05-13T07:00:00.000+0000",
+                    "publishedUntil": "3020-05-21T07:00:00.000+0000",
+                    "type": "BROCHURE",
+                    "pageCount": 10,
+                    "publisher": {
+                        "id": 1024,
+                        "name": "MediaMarkt",
+                        "type": "RETAILER"
+                    },
+                    "retailer": {
+                        "id": 209835338,
+                        "name": "Media-Markt"
+                    },
+                    "brochureImage": "https://content-media.bonial.biz/5c3cbbd8-0f9e-4d0a-9afc-17907e5d228f/preview.jpg",
+                    "isEcommerce": true,
+                    "distance": 0.46465070805140263,
+                    "hideValidityDate": false
+                }
+            },
+            {
+                "placement": "ad_placement__shelf_sort_managed",
+                "adFormat": "ad_format__brochure_card_cover",
+                "contentFormatSource": "destinationsApi",
+                "contentType": "brochure",
+                "content": {
+                    "id": 1263567097,
+                    "contentId": "425fccd1-2800-4d4e-a094-6ae023c9109f",
+                    "title": "Du willst eine große Getränke-Auswahl? Dann geh doch zu Netto!",
+                    "validFrom": "2020-05-10T22:00:00.000+0000",
+                    "validUntil": "3020-05-16T18:00:00.000+0000",
+                    "publishedFrom": "2020-05-09T18:00:00.000+0000",
+                    "publishedUntil": "3020-05-16T18:00:00.000+0000",
+                    "type": "BROCHURE",
+                    "pageCount": 2,
+                    "publisher": {
+                        "id": 174979099,
+                        "name": "Netto Getränke-Markt",
+                        "type": "RETAILER"
+                    },
+                    "retailer": {
+                        "id": 209834837,
+                        "name": "Netto Getränke-Markt"
+                    },
+                    "brochureImage": "https://content-media.bonial.biz/720f79ce-34a2-43f2-ad02-d85e8ab4beab/preview.jpg",
+                    "isEcommerce": false,
+                    "distance": 9.225805639085527,
+                    "hideValidityDate": false
+                }
+            },
+            {
+                "placement": "ad_placement__shelf_sort_managed",
+                "adFormat": "ad_format__brochure_card_cover",
+                "contentFormatSource": "destinationsApi",
+                "contentType": "brochure",
+                "content": {
+                    "id": 1263570021,
+                    "contentId": "06fbcf70-5170-4095-8895-1a36a2b2c825",
+                    "title": "Wir freuen uns auf Ihren Besuch!",
+                    "validFrom": "2020-05-10T22:00:00.000+0000",
+                    "validUntil": "3020-05-16T18:00:00.000+0000",
+                    "publishedFrom": "2020-05-09T18:00:00.000+0000",
+                    "publishedUntil": "3020-05-16T18:00:00.000+0000",
+                    "type": "BROCHURE",
+                    "pageCount": 2,
+                    "publisher": {
+                        "id": 1034,
+                        "name": "Netto Marken-Discount",
+                        "type": "RETAILER"
+                    },
+                    "retailer": {
+                        "id": 209834598,
+                        "name": "Netto Marken-Discount"
+                    },
+                    "brochureImage": "https://content-media.bonial.biz/ddd6f220-b1c5-48cf-8969-d7105c67f161/preview.jpg",
+                    "isEcommerce": false,
+                    "distance": 14.471071839495131,
+                    "hideValidityDate": false
+                }
+            },
+            {
+                "placement": "ad_placement__shelf_sort_managed",
+                "adFormat": "ad_format__brochure_premium",
+                "contentFormatSource": "destinationsApi",
+                "contentType": "brochurePremium",
+                "content": {
+                    "id": 1262015486,
+                    "contentId": "29194d0b-195c-44ff-a774-779b6069c7e4",
+                    "title": "Wow! Neue Kärcher-Akku-Gartengeräte bei Obi!",
+                    "validFrom": "2020-05-05T22:00:00.000+0000",
+                    "validUntil": "3020-06-16T21:00:00.000+0000",
+                    "publishedFrom": "2020-05-05T14:00:00.000+0000",
+                    "publishedUntil": "3020-06-16T21:00:00.000+0000",
+                    "type": "DYNAMIC",
+                    "pageCount": 0,
+                    "publisher": {
+                        "id": 1261979591,
+                        "name": "Kärcher bei OBI",
+                        "type": "MANUFACTURER"
+                    },
+                    "retailer": null,
+                    "brochureImage": "https://content-media.bonial.biz/bf853c62-c6e2-4a34-bc87-f70f43fd7bc9/preview.jpg",
+                    "isEcommerce": false,
+                    "distance": 2.3666010005838434,
+                    "hideValidityDate": false
+                }
+            },
+            {
+                "placement": "ad_placement__shelf_sort_managed",
+                "adFormat": "ad_format__brochure_card_cover",
+                "contentFormatSource": "destinationsApi",
+                "contentType": "brochure",
+                "content": {
+                    "id": 1260439595,
+                    "contentId": "ca6cd6f5-b3a2-4d1b-bb82-7e80214a6d2e",
+                    "title": "20% Rabatt",
+                    "validFrom": "2020-05-03T22:00:00.000+0000",
+                    "validUntil": "3020-05-17T21:00:00.000+0000",
+                    "publishedFrom": "2020-05-03T22:00:00.000+0000",
+                    "publishedUntil": "3020-05-17T21:00:00.000+0000",
+                    "type": "BROCHURE",
+                    "pageCount": 1,
+                    "publisher": {
+                        "id": 1260427840,
+                        "name": "Under Armour",
+                        "type": "RETAILER"
+                    },
+                    "retailer": {
+                        "id": 1260427842,
+                        "name": "Under Armour"
+                    },
+                    "brochureImage": "https://content-media.bonial.biz/e2e85f4c-f289-4d76-868e-c2092a5c6610/preview.jpg",
+                    "isEcommerce": false,
+                    "distance": 37.293670774050476,
+                    "hideValidityDate": false
+                }
+            },
+            {
+                "placement": "ad_placement__shelf_sort_managed",
+                "adFormat": "ad_format__brochure_card_cover",
+                "contentFormatSource": "destinationsApi",
+                "contentType": "brochure",
+                "content": {
+                    "id": 1238398448,
+                    "contentId": "2f975cd5-4204-4a6c-b04f-1a29b113c421",
+                    "title": "GARTEN PLANEN UND GESTALTEN 2020",
+                    "validFrom": "2020-03-26T10:00:00.000+0000",
+                    "validUntil": "3020-05-31T21:00:00.000+0000",
+                    "publishedFrom": "2020-03-26T10:00:00.000+0000",
+                    "publishedUntil": "3020-05-31T21:00:00.000+0000",
+                    "type": "BROCHURE",
+                    "pageCount": 100,
+                    "publisher": {
+                        "id": 1042,
+                        "name": "OBI",
+                        "type": "RETAILER"
+                    },
+                    "retailer": {
+                        "id": 209834832,
+                        "name": "OBI"
+                    },
+                    "brochureImage": "https://content-media.bonial.biz/7d098cc8-1242-4ed3-9eee-89f762003856/preview.jpg",
+                    "isEcommerce": false,
+                    "distance": 2.3666010005838434,
+                    "hideValidityDate": false
+                }
+            },
+            {
+                "placement": "ad_placement__shelf_sort_managed",
+                "adFormat": "ad_format__brochure_card_cover",
+                "contentFormatSource": "destinationsApi",
+                "contentType": "brochure",
+                "content": {
+                    "id": 1228340876,
+                    "contentId": "cee6fd9b-34cf-4189-87e5-59b9c5f260a7",
+                    "title": "Sensum Sommermöbel",
+                    "validFrom": "2020-03-04T23:00:00.000+0000",
+                    "validUntil": "3020-05-31T21:00:00.000+0000",
+                    "publishedFrom": "2020-03-04T23:00:00.000+0000",
+                    "publishedUntil": "3020-05-31T21:00:00.000+0000",
+                    "type": "BROCHURE",
+                    "pageCount": 44,
+                    "publisher": {
+                        "id": 92,
+                        "name": "BAUHAUS",
+                        "type": "RETAILER"
+                    },
+                    "retailer": {
+                        "id": 209834337,
+                        "name": "BAUHAUS"
+                    },
+                    "brochureImage": "https://content-media.bonial.biz/45c259fa-974d-48cc-9962-2271c6ca2d2c/preview.jpg",
+                    "isEcommerce": false,
+                    "distance": 4.166612763704836,
+                    "hideValidityDate": false
+                }
+            },
+            {
+                "placement": "ad_placement__shelf_sort_managed",
+                "adFormat": "ad_format__brochure_premium",
+                "contentFormatSource": "destinationsApi",
+                "contentType": "brochurePremium",
+                "content": {
+                    "id": 1240441379,
+                    "contentId": "a2a43ca0-b70a-48cf-9101-91ab4292edc1",
+                    "title": "Mein Drogeriemarkt",
+                    "validFrom": "2020-05-10T22:00:00.000+0000",
+                    "validUntil": "3020-05-15T21:00:00.000+0000",
+                    "publishedFrom": "2020-05-09T22:00:00.000+0000",
+                    "publishedUntil": "3020-05-15T21:00:00.000+0000",
+                    "type": "BROCHURE",
+                    "pageCount": 20,
+                    "publisher": {
+                        "id": 1064,
+                        "name": "Rossmann",
+                        "type": "RETAILER"
+                    },
+                    "retailer": {
+                        "id": 209835334,
+                        "name": "Rossmann"
+                    },
+                    "brochureImage": "https://content-media.bonial.biz/7e274c2a-dbc0-4c24-b4be-8511c6d64f2b/preview.jpg",
+                    "isEcommerce": false,
+                    "distance": 0.14144620763770083,
+                    "hideValidityDate": false
+                }
+            },
+            {
+                "placement": "ad_placement__shelf_sort_managed",
+                "adFormat": "ad_format__brochure_card_cover",
+                "contentFormatSource": "destinationsApi",
+                "contentType": "brochure",
+                "content": {
+                    "id": 1259852531,
+                    "contentId": "20891074-df2e-400d-b773-cd535c87d89c",
+                    "title": "POLSTERMÖBEL VON KOINOR",
+                    "validFrom": "2020-04-19T22:00:00.000+0000",
+                    "validUntil": "3020-05-16T21:00:00.000+0000",
+                    "publishedFrom": "2020-04-30T22:00:00.000+0000",
+                    "publishedUntil": "3020-05-16T21:00:00.000+0000",
+                    "type": "BROCHURE",
+                    "pageCount": 8,
+                    "publisher": {
+                        "id": 408059635,
+                        "name": "Multipolster",
+                        "type": "RETAILER"
+                    },
+                    "retailer": {
+                        "id": 408059677,
+                        "name": "Multipolster"
+                    },
+                    "brochureImage": "https://content-media.bonial.biz/c8afb36f-92c3-4555-bdca-eb1f2563de5d/preview.jpg",
+                    "isEcommerce": false,
+                    "distance": 5.430683569747167,
+                    "hideValidityDate": false
+                }
+            }
+        ]
+    },
+    "_links": {
+        "self": {
+            "href": "http://destinationsapi.kaufda.de/v3/shelf?page=0&size=200"
+        }
+    },
+    "page": {
+        "size": 200,
+        "totalElements": 32,
+        "totalPages": 1,
+        "number": 0
+    }
+}

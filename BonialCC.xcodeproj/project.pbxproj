@@ -13,7 +13,32 @@
 		F1B928862A13B1FC002F5587 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F1B928852A13B1FC002F5587 /* Preview Assets.xcassets */; };
 		F1B928902A13B1FC002F5587 /* BonialCCTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1B9288F2A13B1FC002F5587 /* BonialCCTests.swift */; };
 		F1B9289A2A13B1FC002F5587 /* BonialCCUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1B928992A13B1FC002F5587 /* BonialCCUITests.swift */; };
-		F1B9289C2A13B1FC002F5587 /* BonialCCUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1B9289B2A13B1FC002F5587 /* BonialCCUITestsLaunchTests.swift */; };
+		F1B928B22A13CC14002F5587 /* BError.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1B928B12A13CC14002F5587 /* BError.swift */; };
+		F1B928B42A13CC19002F5587 /* TaskResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1B928B32A13CC19002F5587 /* TaskResult.swift */; };
+		F1B928B62A13CC20002F5587 /* JSONDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1B928B52A13CC20002F5587 /* JSONDataSource.swift */; };
+		F1B928BE2A13CD42002F5587 /* BrochureRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1B928BB2A13CD42002F5587 /* BrochureRepository.swift */; };
+		F1B928BF2A13CD42002F5587 /* Brochure.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1B928BD2A13CD42002F5587 /* Brochure.swift */; };
+		F1B928C22A13CD4B002F5587 /* BrochuresJSONDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1B928C12A13CD4B002F5587 /* BrochuresJSONDataSource.swift */; };
+		F1B928C42A13CD51002F5587 /* DefaultBrochuresRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1B928C32A13CD51002F5587 /* DefaultBrochuresRepository.swift */; };
+		F1B928C72A13CDFE002F5587 /* challenge.json in Resources */ = {isa = PBXBuildFile; fileRef = F1B928C62A13CDFE002F5587 /* challenge.json */; };
+		F1B928CA2A13D5E2002F5587 /* BrochureGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1B928C92A13D5E2002F5587 /* BrochureGridView.swift */; };
+		F1B928CC2A13D5F2002F5587 /* BrochureGridViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1B928CB2A13D5F2002F5587 /* BrochureGridViewModel.swift */; };
+		F1B928CE2A13D8F1002F5587 /* BrochureGridItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1B928CD2A13D8F1002F5587 /* BrochureGridItemView.swift */; };
+		F1B928D22A13DA2E002F5587 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1B928D12A13DA2E002F5587 /* Theme.swift */; };
+		F1B928D52A13DBB6002F5587 /* BImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1B928D42A13DBB6002F5587 /* BImage.swift */; };
+		F1B928D82A13E43B002F5587 /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = F1B928D72A13E43B002F5587 /* Kingfisher */; };
+		F1B928DA2A13EA4F002F5587 /* BrochureDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1B928D92A13EA4F002F5587 /* BrochureDetailView.swift */; };
+		F1B928DC2A1411B6002F5587 /* BrochureTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1B928DB2A1411B6002F5587 /* BrochureTests.swift */; };
+		F1B928DE2A14123D002F5587 /* Decodable+Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1B928DD2A14123D002F5587 /* Decodable+Utils.swift */; };
+		F1B928E12A14152E002F5587 /* TaskResultTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1B928E02A14152E002F5587 /* TaskResultTests.swift */; };
+		F1B928E92A1418A7002F5587 /* BErrorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1B928E82A1418A7002F5587 /* BErrorTests.swift */; };
+		F1B928EB2A1419B0002F5587 /* DefaultBrochureRepositoryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1B928EA2A1419B0002F5587 /* DefaultBrochureRepositoryTests.swift */; };
+		F1B928ED2A141A0D002F5587 /* MockBrochureDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1B928EC2A141A0D002F5587 /* MockBrochureDataSource.swift */; };
+		F1B928F12A141C3B002F5587 /* BrochureTemplate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1B928F02A141C3B002F5587 /* BrochureTemplate.swift */; };
+		F1B928F32A1421D2002F5587 /* BrochureGridViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1B928F22A1421D2002F5587 /* BrochureGridViewModelTests.swift */; };
+		F1FACF192A14245200DE72DF /* XCTestUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1FACF182A14245200DE72DF /* XCTestUtils.swift */; };
+		F1FACF1B2A1428AA00DE72DF /* UIState.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1FACF1A2A1428AA00DE72DF /* UIState.swift */; };
+		F1FACF1F2A142C8400DE72DF /* UIStateTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1FACF1E2A142C8400DE72DF /* UIStateTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,7 +68,32 @@
 		F1B9288F2A13B1FC002F5587 /* BonialCCTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BonialCCTests.swift; sourceTree = "<group>"; };
 		F1B928952A13B1FC002F5587 /* BonialCCUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BonialCCUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F1B928992A13B1FC002F5587 /* BonialCCUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BonialCCUITests.swift; sourceTree = "<group>"; };
-		F1B9289B2A13B1FC002F5587 /* BonialCCUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BonialCCUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		F1B928B12A13CC14002F5587 /* BError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BError.swift; sourceTree = "<group>"; };
+		F1B928B32A13CC19002F5587 /* TaskResult.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TaskResult.swift; sourceTree = "<group>"; };
+		F1B928B52A13CC20002F5587 /* JSONDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JSONDataSource.swift; sourceTree = "<group>"; };
+		F1B928BB2A13CD42002F5587 /* BrochureRepository.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BrochureRepository.swift; sourceTree = "<group>"; };
+		F1B928BD2A13CD42002F5587 /* Brochure.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Brochure.swift; sourceTree = "<group>"; };
+		F1B928C12A13CD4B002F5587 /* BrochuresJSONDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BrochuresJSONDataSource.swift; sourceTree = "<group>"; };
+		F1B928C32A13CD51002F5587 /* DefaultBrochuresRepository.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DefaultBrochuresRepository.swift; sourceTree = "<group>"; };
+		F1B928C62A13CDFE002F5587 /* challenge.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = challenge.json; sourceTree = "<group>"; };
+		F1B928C92A13D5E2002F5587 /* BrochureGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrochureGridView.swift; sourceTree = "<group>"; };
+		F1B928CB2A13D5F2002F5587 /* BrochureGridViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrochureGridViewModel.swift; sourceTree = "<group>"; };
+		F1B928CD2A13D8F1002F5587 /* BrochureGridItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrochureGridItemView.swift; sourceTree = "<group>"; };
+		F1B928D12A13DA2E002F5587 /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
+		F1B928D42A13DBB6002F5587 /* BImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BImage.swift; sourceTree = "<group>"; };
+		F1B928D92A13EA4F002F5587 /* BrochureDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrochureDetailView.swift; sourceTree = "<group>"; };
+		F1B928DB2A1411B6002F5587 /* BrochureTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrochureTests.swift; sourceTree = "<group>"; };
+		F1B928DD2A14123D002F5587 /* Decodable+Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Decodable+Utils.swift"; sourceTree = "<group>"; };
+		F1B928E02A14152E002F5587 /* TaskResultTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskResultTests.swift; sourceTree = "<group>"; };
+		F1B928E82A1418A7002F5587 /* BErrorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BErrorTests.swift; sourceTree = "<group>"; };
+		F1B928EA2A1419B0002F5587 /* DefaultBrochureRepositoryTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefaultBrochureRepositoryTests.swift; sourceTree = "<group>"; };
+		F1B928EC2A141A0D002F5587 /* MockBrochureDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockBrochureDataSource.swift; sourceTree = "<group>"; };
+		F1B928F02A141C3B002F5587 /* BrochureTemplate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrochureTemplate.swift; sourceTree = "<group>"; };
+		F1B928F22A1421D2002F5587 /* BrochureGridViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrochureGridViewModelTests.swift; sourceTree = "<group>"; };
+		F1B928F42A1422A9002F5587 /* BonialCC.xctestplan */ = {isa = PBXFileReference; lastKnownFileType = text; path = BonialCC.xctestplan; sourceTree = "<group>"; };
+		F1FACF182A14245200DE72DF /* XCTestUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XCTestUtils.swift; sourceTree = "<group>"; };
+		F1FACF1A2A1428AA00DE72DF /* UIState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIState.swift; sourceTree = "<group>"; };
+		F1FACF1E2A142C8400DE72DF /* UIStateTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIStateTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +101,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F1B928D82A13E43B002F5587 /* Kingfisher in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,6 +125,7 @@
 		F1B928722A13B1FC002F5587 = {
 			isa = PBXGroup;
 			children = (
+				F1B928F42A1422A9002F5587 /* BonialCC.xctestplan */,
 				F1B9287D2A13B1FC002F5587 /* BonialCC */,
 				F1B9288E2A13B1FC002F5587 /* BonialCCTests */,
 				F1B928982A13B1FC002F5587 /* BonialCCUITests */,
@@ -94,8 +146,8 @@
 		F1B9287D2A13B1FC002F5587 /* BonialCC */ = {
 			isa = PBXGroup;
 			children = (
-				F1B9287E2A13B1FC002F5587 /* BonialCCApp.swift */,
-				F1B928802A13B1FC002F5587 /* ContentView.swift */,
+				F1B928AE2A13CBB3002F5587 /* App */,
+				F1B928B02A13CBDC002F5587 /* Library */,
 				F1B928822A13B1FC002F5587 /* Assets.xcassets */,
 				F1B928842A13B1FC002F5587 /* Preview Content */,
 			);
@@ -122,9 +174,209 @@
 			isa = PBXGroup;
 			children = (
 				F1B928992A13B1FC002F5587 /* BonialCCUITests.swift */,
-				F1B9289B2A13B1FC002F5587 /* BonialCCUITestsLaunchTests.swift */,
 			);
 			path = BonialCCUITests;
+			sourceTree = "<group>";
+		};
+		F1B928AE2A13CBB3002F5587 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				F1B928B72A13CC29002F5587 /* Features */,
+				F1B928D02A13DA02002F5587 /* Library */,
+				F1B9287E2A13B1FC002F5587 /* BonialCCApp.swift */,
+				F1B928802A13B1FC002F5587 /* ContentView.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		F1B928B02A13CBDC002F5587 /* Library */ = {
+			isa = PBXGroup;
+			children = (
+				F1B928E42A141674002F5587 /* Sources */,
+				F1B928E52A14167C002F5587 /* Test */,
+			);
+			path = Library;
+			sourceTree = "<group>";
+		};
+		F1B928B72A13CC29002F5587 /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				F1B928B92A13CD42002F5587 /* BrochureFeature */,
+			);
+			path = Features;
+			sourceTree = "<group>";
+		};
+		F1B928B92A13CD42002F5587 /* BrochureFeature */ = {
+			isa = PBXGroup;
+			children = (
+				F1B928E32A141648002F5587 /* Sources */,
+				F1B928E22A14163F002F5587 /* Tests */,
+			);
+			path = BrochureFeature;
+			sourceTree = "<group>";
+		};
+		F1B928BA2A13CD42002F5587 /* Repositories */ = {
+			isa = PBXGroup;
+			children = (
+				F1B928EE2A141A11002F5587 /* Mocks */,
+				F1B928C32A13CD51002F5587 /* DefaultBrochuresRepository.swift */,
+				F1B928BB2A13CD42002F5587 /* BrochureRepository.swift */,
+			);
+			path = Repositories;
+			sourceTree = "<group>";
+		};
+		F1B928BC2A13CD42002F5587 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				F1B928EF2A141C2D002F5587 /* Templates */,
+				F1B928BD2A13CD42002F5587 /* Brochure.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		F1B928C02A13CD4B002F5587 /* Datasource */ = {
+			isa = PBXGroup;
+			children = (
+				F1B928C12A13CD4B002F5587 /* BrochuresJSONDataSource.swift */,
+			);
+			path = Datasource;
+			sourceTree = "<group>";
+		};
+		F1B928C52A13CDF5002F5587 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				F1B928C62A13CDFE002F5587 /* challenge.json */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		F1B928C82A13D5CC002F5587 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				F1B928C92A13D5E2002F5587 /* BrochureGridView.swift */,
+				F1B928CB2A13D5F2002F5587 /* BrochureGridViewModel.swift */,
+				F1B928CD2A13D8F1002F5587 /* BrochureGridItemView.swift */,
+				F1B928D92A13EA4F002F5587 /* BrochureDetailView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		F1B928CF2A13D9F5002F5587 /* SwiftUIDesignSystem */ = {
+			isa = PBXGroup;
+			children = (
+				F1B928D32A13DB88002F5587 /* Components */,
+				F1B928D12A13DA2E002F5587 /* Theme.swift */,
+				F1FACF1A2A1428AA00DE72DF /* UIState.swift */,
+			);
+			path = SwiftUIDesignSystem;
+			sourceTree = "<group>";
+		};
+		F1B928D02A13DA02002F5587 /* Library */ = {
+			isa = PBXGroup;
+			children = (
+				F1FACF1D2A142C5500DE72DF /* Sources */,
+				F1FACF1C2A142C4700DE72DF /* Tests */,
+			);
+			path = Library;
+			sourceTree = "<group>";
+		};
+		F1B928D32A13DB88002F5587 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				F1B928D42A13DBB6002F5587 /* BImage.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		F1B928DF2A141242002F5587 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				F1B928DD2A14123D002F5587 /* Decodable+Utils.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		F1B928E22A14163F002F5587 /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				F1B928DB2A1411B6002F5587 /* BrochureTests.swift */,
+				F1B928EA2A1419B0002F5587 /* DefaultBrochureRepositoryTests.swift */,
+				F1B928F22A1421D2002F5587 /* BrochureGridViewModelTests.swift */,
+			);
+			path = Tests;
+			sourceTree = "<group>";
+		};
+		F1B928E32A141648002F5587 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				F1B928C82A13D5CC002F5587 /* Views */,
+				F1B928C52A13CDF5002F5587 /* Resources */,
+				F1B928C02A13CD4B002F5587 /* Datasource */,
+				F1B928BA2A13CD42002F5587 /* Repositories */,
+				F1B928BC2A13CD42002F5587 /* Models */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		F1B928E42A141674002F5587 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				F1B928B32A13CC19002F5587 /* TaskResult.swift */,
+				F1B928B52A13CC20002F5587 /* JSONDataSource.swift */,
+				F1B928B12A13CC14002F5587 /* BError.swift */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		F1B928E52A14167C002F5587 /* Test */ = {
+			isa = PBXGroup;
+			children = (
+				F1FACF172A14241F00DE72DF /* Utils */,
+				F1B928E02A14152E002F5587 /* TaskResultTests.swift */,
+				F1B928E82A1418A7002F5587 /* BErrorTests.swift */,
+			);
+			path = Test;
+			sourceTree = "<group>";
+		};
+		F1B928EE2A141A11002F5587 /* Mocks */ = {
+			isa = PBXGroup;
+			children = (
+				F1B928EC2A141A0D002F5587 /* MockBrochureDataSource.swift */,
+			);
+			path = Mocks;
+			sourceTree = "<group>";
+		};
+		F1B928EF2A141C2D002F5587 /* Templates */ = {
+			isa = PBXGroup;
+			children = (
+				F1B928F02A141C3B002F5587 /* BrochureTemplate.swift */,
+			);
+			path = Templates;
+			sourceTree = "<group>";
+		};
+		F1FACF172A14241F00DE72DF /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				F1FACF182A14245200DE72DF /* XCTestUtils.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		F1FACF1C2A142C4700DE72DF /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				F1FACF1E2A142C8400DE72DF /* UIStateTests.swift */,
+			);
+			path = Tests;
+			sourceTree = "<group>";
+		};
+		F1FACF1D2A142C5500DE72DF /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				F1B928CF2A13D9F5002F5587 /* SwiftUIDesignSystem */,
+				F1B928DF2A141242002F5587 /* Utils */,
+			);
+			path = Sources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -143,6 +395,9 @@
 			dependencies = (
 			);
 			name = BonialCC;
+			packageProductDependencies = (
+				F1B928D72A13E43B002F5587 /* Kingfisher */,
+			);
 			productName = BonialCC;
 			productReference = F1B9287B2A13B1FC002F5587 /* BonialCC.app */;
 			productType = "com.apple.product-type.application";
@@ -215,6 +470,9 @@
 				Base,
 			);
 			mainGroup = F1B928722A13B1FC002F5587;
+			packageReferences = (
+				F1B928D62A13E43B002F5587 /* XCRemoteSwiftPackageReference "Kingfisher" */,
+			);
 			productRefGroup = F1B9287C2A13B1FC002F5587 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -233,6 +491,7 @@
 			files = (
 				F1B928862A13B1FC002F5587 /* Preview Assets.xcassets in Resources */,
 				F1B928832A13B1FC002F5587 /* Assets.xcassets in Resources */,
+				F1B928C72A13CDFE002F5587 /* challenge.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,8 +516,25 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F1B928C42A13CD51002F5587 /* DefaultBrochuresRepository.swift in Sources */,
 				F1B928812A13B1FC002F5587 /* ContentView.swift in Sources */,
+				F1B928BF2A13CD42002F5587 /* Brochure.swift in Sources */,
+				F1B928CE2A13D8F1002F5587 /* BrochureGridItemView.swift in Sources */,
+				F1B928D22A13DA2E002F5587 /* Theme.swift in Sources */,
+				F1B928DA2A13EA4F002F5587 /* BrochureDetailView.swift in Sources */,
+				F1B928C22A13CD4B002F5587 /* BrochuresJSONDataSource.swift in Sources */,
+				F1B928DE2A14123D002F5587 /* Decodable+Utils.swift in Sources */,
+				F1B928B42A13CC19002F5587 /* TaskResult.swift in Sources */,
+				F1B928B62A13CC20002F5587 /* JSONDataSource.swift in Sources */,
+				F1B928CA2A13D5E2002F5587 /* BrochureGridView.swift in Sources */,
+				F1B928F12A141C3B002F5587 /* BrochureTemplate.swift in Sources */,
+				F1B928D52A13DBB6002F5587 /* BImage.swift in Sources */,
+				F1B928BE2A13CD42002F5587 /* BrochureRepository.swift in Sources */,
+				F1B928CC2A13D5F2002F5587 /* BrochureGridViewModel.swift in Sources */,
+				F1B928B22A13CC14002F5587 /* BError.swift in Sources */,
 				F1B9287F2A13B1FC002F5587 /* BonialCCApp.swift in Sources */,
+				F1B928ED2A141A0D002F5587 /* MockBrochureDataSource.swift in Sources */,
+				F1FACF1B2A1428AA00DE72DF /* UIState.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -266,7 +542,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F1B928E12A14152E002F5587 /* TaskResultTests.swift in Sources */,
 				F1B928902A13B1FC002F5587 /* BonialCCTests.swift in Sources */,
+				F1FACF192A14245200DE72DF /* XCTestUtils.swift in Sources */,
+				F1B928E92A1418A7002F5587 /* BErrorTests.swift in Sources */,
+				F1B928DC2A1411B6002F5587 /* BrochureTests.swift in Sources */,
+				F1B928EB2A1419B0002F5587 /* DefaultBrochureRepositoryTests.swift in Sources */,
+				F1B928F32A1421D2002F5587 /* BrochureGridViewModelTests.swift in Sources */,
+				F1FACF1F2A142C8400DE72DF /* UIStateTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,7 +557,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F1B9289C2A13B1FC002F5587 /* BonialCCUITestsLaunchTests.swift in Sources */,
 				F1B9289A2A13B1FC002F5587 /* BonialCCUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -583,6 +865,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		F1B928D62A13E43B002F5587 /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onevcat/Kingfisher.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 7.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		F1B928D72A13E43B002F5587 /* Kingfisher */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F1B928D62A13E43B002F5587 /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = Kingfisher;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = F1B928732A13B1FC002F5587 /* Project object */;
 }

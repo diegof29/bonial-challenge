@@ -1,0 +1,45 @@
+{
+  "configurations" : [
+    {
+      "id" : "1CA0DD4B-6751-4A82-9EF4-506498E3DFF8",
+      "name" : "Test Scheme Action",
+      "options" : {
+
+      }
+    }
+  ],
+  "defaultOptions" : {
+    "codeCoverage" : {
+      "targets" : [
+        {
+          "containerPath" : "container:BonialCC.xcodeproj",
+          "identifier" : "F1B9287A2A13B1FC002F5587",
+          "name" : "BonialCC"
+        }
+      ]
+    },
+    "targetForVariableExpansion" : {
+      "containerPath" : "container:BonialCC.xcodeproj",
+      "identifier" : "F1B9287A2A13B1FC002F5587",
+      "name" : "BonialCC"
+    }
+  },
+  "testTargets" : [
+    {
+      "parallelizable" : true,
+      "target" : {
+        "containerPath" : "container:BonialCC.xcodeproj",
+        "identifier" : "F1B9288A2A13B1FC002F5587",
+        "name" : "BonialCCTests"
+      }
+    },
+    {
+      "target" : {
+        "containerPath" : "container:BonialCC.xcodeproj",
+        "identifier" : "F1B928942A13B1FC002F5587",
+        "name" : "BonialCCUITests"
+      }
+    }
+  ],
+  "version" : 1
+}

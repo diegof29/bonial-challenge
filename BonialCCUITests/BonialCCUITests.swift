@@ -9,33 +9,57 @@ import XCTest
 
 final class BonialCCUITests: XCTestCase {
 
-    override func setUpWithError() throws {
-        // Put setup code here. This method is called before the invocation of each test method in the class.
-
-        // In UI tests it is usually best to stop immediately when a failure occurs.
-        continueAfterFailure = false
-
-        // In UI tests it’s important to set the initial state - such as interface orientation - required for your tests before they run. The setUp method is a good place to do this.
-    }
-
-    override func tearDownWithError() throws {
-        // Put teardown code here. This method is called after the invocation of each test method in the class.
-    }
-
-    func testExample() throws {
-        // UI tests must launch the application that they test.
+  
+    func test_loadBrochuresAndDisplayDetail() throws {
         let app = XCUIApplication()
+        
+        app.launchArguments.append("-uiTestSuccess")
         app.launch()
+        
+        // The list should exist
+        let brochureGridView = existingElement(app.scrollViews["brochures-list"])
+        
+        let firstBrochureGridItem = existingElement(brochureGridView.buttons["brochure-1262188890"])
+        
+        let titleLabel = existingElement(firstBrochureGridItem.staticTexts["brochure-title"])
+        XCTAssertEqual(titleLabel.label, "WIEDER PREISE STREICHEN MACHT FREUDE")
+        
+        let distanceLabel = existingElement(firstBrochureGridItem.staticTexts["brochure-distance"])
+        XCTAssertEqual(distanceLabel.label, "nearby")
+        
+        let retailerLabel = existingElement(firstBrochureGridItem.staticTexts["brochure-retailer-name"])
+        XCTAssertEqual(retailerLabel.label, "Media-Markt")
+        
+        existingElement(firstBrochureGridItem.images["brochure-image"])
 
-        // Use XCTAssert and related functions to verify your tests produce the correct results.
+        // Open details
+        firstBrochureGridItem.tap()
+        
+//      The details view should exist
+        let brochureDetailView = existingElement(app.images["brochure-details-1262188890"], timeout: 0.5)
+        
+//        // Dismiss the details
+        brochureDetailView.firstMatch.tap()
+//
+        existingElement(app.scrollViews["brochures-list"], timeout: 0.5)
     }
-
-    func testLaunchPerformance() throws {
-        if #available(macOS 10.15, iOS 13.0, tvOS 13.0, watchOS 7.0, *) {
-            // This measures how long it takes to launch your application.
-            measure(metrics: [XCTApplicationLaunchMetric()]) {
-                XCUIApplication().launch()
-            }
-        }
+    
+    //    MARK: Utils
+        
+    /// Runs a `XCTAssert` for the given element and return it if exists.
+    @discardableResult
+    private func existingElement(_ elementGetter: @autoclosure () -> XCUIElement) -> XCUIElement {
+        let element = elementGetter()
+        XCTAssertTrue(element.exists)
+        return element
+    }
+    
+    /// Wait for the existance of an element and returns it.
+    @discardableResult
+    private func existingElement(_ elementGetter: @autoclosure () -> XCUIElement, timeout: TimeInterval) -> XCUIElement {
+        let element = elementGetter()
+        _ = element.waitForExistence(timeout: timeout)
+        XCTAssertTrue(element.exists)
+        return element
     }
 }
