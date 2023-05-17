@@ -75,7 +75,7 @@ public struct BrochureGridView: View {
     }
 }
 
-struct BrochureListView_Previews: PreviewProvider {
+struct BrochureGridView_Previews: PreviewProvider {
     static var previews: some View {
         BrochureGridView(
             theme: Container.shared.theme(),
