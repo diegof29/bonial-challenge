@@ -9,6 +9,9 @@ import Foundation
 import Factory
 
 /// Registers repository protocol in Factory
+///  Here I register only the protocol, the concrete implementation is registered at the App level.
+///  This has some disadvantages, like the dependency is optional, but allows you to put the interface and
+///  implementation in different modules if needed.
 public extension Container {
     var brochureRepository: Factory<BrochureRepository?> { self { nil } }
 }

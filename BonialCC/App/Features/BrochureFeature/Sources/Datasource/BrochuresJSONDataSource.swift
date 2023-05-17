@@ -8,8 +8,9 @@
 import Foundation
 import Factory
 
+/// Registers datasource protocol in Factory
 public extension Container {
-    var brochureDataSource: Factory<BrochureDataSource?> { self { nil } }
+    var brochureDataSource: Factory<BrochureDataSource> { self { JSONDataSource() } }
 }
 
 public protocol BrochureDataSource {

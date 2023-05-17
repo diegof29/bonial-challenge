@@ -10,13 +10,10 @@ import Factory
 
 extension Container: AutoRegistering {
     public func autoRegister() {
-
-        // DataSources
-        brochureDataSource.register { JSONDataSource() }
         
         // Repositories
         brochureRepository.register {
-            DefaultBrochureRepository(dataSource: Container.shared.brochureDataSource()!)
+            DefaultBrochureRepository(dataSource: Container.shared.brochureDataSource())
         }
         
         #if DEBUG
