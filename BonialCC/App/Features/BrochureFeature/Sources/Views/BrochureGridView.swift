@@ -6,12 +6,16 @@
 //
 
 import SwiftUI
+import Factory
 
-struct BrochureGridView: View {
+public struct BrochureGridView: View {
     
     @Environment(\.horizontalSizeClass) var horizontalSizeClass
     @Environment(\.verticalSizeClass) var verticalSizeClass
-    @StateObject var viewModel: BrochureGridViewModel
+    
+    @StateObject private var viewModel: BrochureGridViewModel
+    
+    private var theme: BTheme
     
     // The requirement here is to support 3 columns in landscape mode
     // Apple discourages to use landscape and portrait mode and instead use sizeClasses
@@ -28,20 +32,25 @@ struct BrochureGridView: View {
         GridItem(.flexible(), alignment: .top)
     ]
     
-    var isInLandscape: Bool {
+    var useLandscapeLayout: Bool {
         return verticalSizeClass == .compact || horizontalSizeClass == .regular
     }
     
-    var body: some View {
+    public init(theme: BTheme, viewModel: BrochureGridViewModel) {
+        self.theme = theme
+        _viewModel = StateObject(wrappedValue: viewModel)
+    }
+    
+    public var body: some View {
         ZStack {
             NavigationStack {
                 ScrollView(.vertical, showsIndicators: false) {
                     LazyVGrid(
-                        columns: isInLandscape ? columnsRegular : columnsCompact,
-                        spacing: 20
+                        columns: useLandscapeLayout ? columnsRegular : columnsCompact,
+                        spacing: theme.spacing.large
                     ) {
                         ForEach(viewModel.brochures) { brochure in
-                            BrochureGridItemView(brochure: brochure) { selectedBrochure in
+                            BrochureGridItemView(theme: theme, brochure: brochure) { selectedBrochure in
                                 withAnimation {
                                     viewModel.didSelectBrochure(selectedBrochure)
                                 }
@@ -49,10 +58,10 @@ struct BrochureGridView: View {
                             .accessibilityIdentifier("brochure-\(brochure.id)")
                         }
                     }
-                    .padding(.top, 16)
+                    .padding(.top, theme.spacing.large)
                 }
                 .accessibilityIdentifier("brochures-list")
-                .padding(.horizontal, 16)
+                .padding(.horizontal, theme.spacing.large)
                 .navigationTitle("Brochures")
                 .navigationBarTitleDisplayMode(.inline)
                 .task(viewModel.loadBrochures)
@@ -74,6 +83,7 @@ struct BrochureGridView: View {
 struct BrochureListView_Previews: PreviewProvider {
     static var previews: some View {
         BrochureGridView(
+            theme: Container.shared.theme(),
             viewModel: BrochureGridViewModel(
                 repository: DefaultBrochureRepository(
                     dataSource: MockBrochureDataSource(brochures: [.premiumTemplate, .template, .template2km, .template1km])

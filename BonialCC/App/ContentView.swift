@@ -11,6 +11,7 @@ import Factory
 struct ContentView: View {
     var body: some View {
         BrochureGridView(
+            theme: Container.shared.theme(),
             viewModel: BrochureGridViewModel(
                 repository: Container.shared.brochureRepository()!
             )

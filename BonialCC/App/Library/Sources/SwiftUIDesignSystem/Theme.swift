@@ -28,6 +28,7 @@ public struct BTheme {
         public let surface: Color
         
         public let black: Color
+        public let green: Color
     }
         
     public var spacing: BSpacing
@@ -35,12 +36,13 @@ public struct BTheme {
     public var cornerRadius: CGFloat
     
     init() {
-        self.spacing = BSpacing(nothing: 0, small: 4, regular: 8, medium: 12, large: 20)
+        self.spacing = BSpacing(nothing: 0, small: 4, regular: 8, medium: 12, large: 16)
         self.cornerRadius = 12
         self.palette = BColorPalette(
             primary: Color("primary"),
             surface: Color("surface"),
-            black: Color("black")
+            black: Color("black"),
+            green: Color("green")
         )
     }
 }

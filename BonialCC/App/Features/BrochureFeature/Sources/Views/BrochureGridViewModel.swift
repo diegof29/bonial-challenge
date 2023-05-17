@@ -7,7 +7,7 @@
 
 import Foundation
 
-class BrochureGridViewModel: ObservableObject {
+public class BrochureGridViewModel: ObservableObject {
     
     private var repository: BrochureRepository
     
@@ -15,7 +15,7 @@ class BrochureGridViewModel: ObservableObject {
     @Published var selectedBrochure: Brochure?
     @Published var uiState = UIState()
     
-    init(repository: BrochureRepository) {
+    public init(repository: BrochureRepository) {
         self.repository = repository
     }
     
