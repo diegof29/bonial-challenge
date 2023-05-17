@@ -19,7 +19,6 @@ struct BImage: View {
     }
     
     var body: some View {
-        
         ZStack {
             KFImage(url)
                 .resizable()

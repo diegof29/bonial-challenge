@@ -14,6 +14,10 @@ public extension Container {
 }
 
 public protocol BrochureRepository {
+    
+    /// Fetches all the brochures
     func fetch() async -> TaskResult<[Brochure]>
+    
+    /// Fetches the brochures and apply a filter by distance
     func fetch(maxDistance: Double) async -> TaskResult<[Brochure]>
 }

@@ -26,7 +26,7 @@ public struct JSONDataSource {
             return .failure(error: BError(message: "File not found"))
         }
         
-        let loadDataTask = Task(priority: .high) {
+        let loadDataTask = Task(priority: .background) {
             do {
                 let data = try Data(contentsOf: fileURL)
                 

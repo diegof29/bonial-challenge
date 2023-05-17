@@ -13,6 +13,9 @@ public extension Container {
     var theme: Factory<BTheme> { self { BTheme() }.cached }
 }
 
+
+// This struct contains a set of properties to standarize the design in the app.
+// If needed the values can be loaded from the server, to be able to adapt colors, etc
 public struct BTheme {
     
     public struct BSpacing {

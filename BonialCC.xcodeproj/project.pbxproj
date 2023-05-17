@@ -299,14 +299,6 @@
 			path = Components;
 			sourceTree = "<group>";
 		};
-		F1B928DF2A141242002F5587 /* Utils */ = {
-			isa = PBXGroup;
-			children = (
-				F1B928DD2A14123D002F5587 /* DecodableUtils.swift */,
-			);
-			path = Utils;
-			sourceTree = "<group>";
-		};
 		F1B928E22A14163F002F5587 /* Tests */ = {
 			isa = PBXGroup;
 			children = (
@@ -332,6 +324,7 @@
 		F1B928E42A141674002F5587 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
+				F1B928DD2A14123D002F5587 /* DecodableUtils.swift */,
 				F1B928B32A13CC19002F5587 /* TaskResult.swift */,
 				F1B928B52A13CC20002F5587 /* JSONDataSource.swift */,
 				F1B928B12A13CC14002F5587 /* BError.swift */,
@@ -385,7 +378,6 @@
 			isa = PBXGroup;
 			children = (
 				F1B928CF2A13D9F5002F5587 /* SwiftUIDesignSystem */,
-				F1B928DF2A141242002F5587 /* Utils */,
 			);
 			path = Sources;
 			sourceTree = "<group>";

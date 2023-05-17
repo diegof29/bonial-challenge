@@ -1,5 +1,5 @@
 //
-//  JSONDataSource.swift
+//  TaskResult.swift
 //
 //
 //  Created by Diego Pais on 16.05.23.

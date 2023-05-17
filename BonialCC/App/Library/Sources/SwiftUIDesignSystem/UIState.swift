@@ -7,6 +7,7 @@
 
 import Foundation
 
+/// Utility struct used to represent the loading and error state of the UI
 public struct UIState {
     public var isLoading = false
     public var error: BError?
