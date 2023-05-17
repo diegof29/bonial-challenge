@@ -17,11 +17,6 @@ public struct BrochureGridView: View {
     
     private var theme: BTheme
     
-    // The requirement here is to support 3 columns in landscape mode
-    // Apple discourages to use landscape and portrait mode and instead use sizeClasses
-    // but not all iPhones are regular when in landascape, for example the iPhone 13 Pro is compact in landscape
-    // and the iPhone 13 Pro Plus is regular. So I will use a mix of both vertical and horizontal to detect if the regular
-    // UI should be displayed.
     private let columnsCompact = [
         GridItem(.flexible(), alignment: .top),
         GridItem(.flexible(), alignment: .top),
