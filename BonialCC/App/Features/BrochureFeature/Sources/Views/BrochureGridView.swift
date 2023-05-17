@@ -22,17 +22,17 @@ public struct BrochureGridView: View {
     // but not all iPhones are regular when in landascape, for example the iPhone 13 Pro is compact in landscape
     // and the iPhone 13 Pro Plus is regular. So I will use a mix of both vertical and horizontal to detect if the regular
     // UI should be displayed.
-    let columnsCompact = [
+    private let columnsCompact = [
         GridItem(.flexible(), alignment: .top),
         GridItem(.flexible(), alignment: .top),
     ]
-    let columnsRegular = [
+    private let columnsRegular = [
         GridItem(.flexible(), alignment: .top),
         GridItem(.flexible(), alignment: .top),
         GridItem(.flexible(), alignment: .top)
     ]
     
-    var useLandscapeLayout: Bool {
+    private var useLandscapeLayout: Bool {
         return verticalSizeClass == .compact || horizontalSizeClass == .regular
     }
     
