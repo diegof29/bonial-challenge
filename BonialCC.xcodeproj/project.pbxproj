@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F134970E2A14C4EE00137850 /* ThemeColors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F134970D2A14C4EE00137850 /* ThemeColors.xcassets */; };
+		F13497112A14D3A300137850 /* Factory in Frameworks */ = {isa = PBXBuildFile; productRef = F13497102A14D3A300137850 /* Factory */; };
+		F13497132A14D44100137850 /* AppDepencyInjection.swift in Sources */ = {isa = PBXBuildFile; fileRef = F13497122A14D44100137850 /* AppDepencyInjection.swift */; };
 		F1B9287F2A13B1FC002F5587 /* BonialCCApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1B9287E2A13B1FC002F5587 /* BonialCCApp.swift */; };
 		F1B928812A13B1FC002F5587 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1B928802A13B1FC002F5587 /* ContentView.swift */; };
 		F1B928832A13B1FC002F5587 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F1B928822A13B1FC002F5587 /* Assets.xcassets */; };
@@ -29,12 +32,12 @@
 		F1B928D82A13E43B002F5587 /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = F1B928D72A13E43B002F5587 /* Kingfisher */; };
 		F1B928DA2A13EA4F002F5587 /* BrochureDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1B928D92A13EA4F002F5587 /* BrochureDetailView.swift */; };
 		F1B928DC2A1411B6002F5587 /* BrochureTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1B928DB2A1411B6002F5587 /* BrochureTests.swift */; };
-		F1B928DE2A14123D002F5587 /* Decodable+Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1B928DD2A14123D002F5587 /* Decodable+Utils.swift */; };
+		F1B928DE2A14123D002F5587 /* DecodableUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1B928DD2A14123D002F5587 /* DecodableUtils.swift */; };
 		F1B928E12A14152E002F5587 /* TaskResultTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1B928E02A14152E002F5587 /* TaskResultTests.swift */; };
 		F1B928E92A1418A7002F5587 /* BErrorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1B928E82A1418A7002F5587 /* BErrorTests.swift */; };
 		F1B928EB2A1419B0002F5587 /* DefaultBrochureRepositoryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1B928EA2A1419B0002F5587 /* DefaultBrochureRepositoryTests.swift */; };
 		F1B928ED2A141A0D002F5587 /* MockBrochureDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1B928EC2A141A0D002F5587 /* MockBrochureDataSource.swift */; };
-		F1B928F12A141C3B002F5587 /* BrochureTemplate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1B928F02A141C3B002F5587 /* BrochureTemplate.swift */; };
+		F1B928F12A141C3B002F5587 /* BrochureTemplates.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1B928F02A141C3B002F5587 /* BrochureTemplates.swift */; };
 		F1B928F32A1421D2002F5587 /* BrochureGridViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1B928F22A1421D2002F5587 /* BrochureGridViewModelTests.swift */; };
 		F1FACF192A14245200DE72DF /* XCTestUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1FACF182A14245200DE72DF /* XCTestUtils.swift */; };
 		F1FACF1B2A1428AA00DE72DF /* UIState.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1FACF1A2A1428AA00DE72DF /* UIState.swift */; };
@@ -59,6 +62,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F134970D2A14C4EE00137850 /* ThemeColors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = ThemeColors.xcassets; sourceTree = "<group>"; };
+		F13497122A14D44100137850 /* AppDepencyInjection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDepencyInjection.swift; sourceTree = "<group>"; };
 		F1B9287B2A13B1FC002F5587 /* BonialCC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BonialCC.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F1B9287E2A13B1FC002F5587 /* BonialCCApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BonialCCApp.swift; sourceTree = "<group>"; };
 		F1B928802A13B1FC002F5587 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -83,12 +88,12 @@
 		F1B928D42A13DBB6002F5587 /* BImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BImage.swift; sourceTree = "<group>"; };
 		F1B928D92A13EA4F002F5587 /* BrochureDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrochureDetailView.swift; sourceTree = "<group>"; };
 		F1B928DB2A1411B6002F5587 /* BrochureTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrochureTests.swift; sourceTree = "<group>"; };
-		F1B928DD2A14123D002F5587 /* Decodable+Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Decodable+Utils.swift"; sourceTree = "<group>"; };
+		F1B928DD2A14123D002F5587 /* DecodableUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DecodableUtils.swift; sourceTree = "<group>"; };
 		F1B928E02A14152E002F5587 /* TaskResultTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskResultTests.swift; sourceTree = "<group>"; };
 		F1B928E82A1418A7002F5587 /* BErrorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BErrorTests.swift; sourceTree = "<group>"; };
 		F1B928EA2A1419B0002F5587 /* DefaultBrochureRepositoryTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefaultBrochureRepositoryTests.swift; sourceTree = "<group>"; };
 		F1B928EC2A141A0D002F5587 /* MockBrochureDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockBrochureDataSource.swift; sourceTree = "<group>"; };
-		F1B928F02A141C3B002F5587 /* BrochureTemplate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrochureTemplate.swift; sourceTree = "<group>"; };
+		F1B928F02A141C3B002F5587 /* BrochureTemplates.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrochureTemplates.swift; sourceTree = "<group>"; };
 		F1B928F22A1421D2002F5587 /* BrochureGridViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrochureGridViewModelTests.swift; sourceTree = "<group>"; };
 		F1B928F42A1422A9002F5587 /* BonialCC.xctestplan */ = {isa = PBXFileReference; lastKnownFileType = text; path = BonialCC.xctestplan; sourceTree = "<group>"; };
 		F1FACF182A14245200DE72DF /* XCTestUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XCTestUtils.swift; sourceTree = "<group>"; };
@@ -102,6 +107,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F1B928D82A13E43B002F5587 /* Kingfisher in Frameworks */,
+				F13497112A14D3A300137850 /* Factory in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -185,6 +191,7 @@
 				F1B928D02A13DA02002F5587 /* Library */,
 				F1B9287E2A13B1FC002F5587 /* BonialCCApp.swift */,
 				F1B928802A13B1FC002F5587 /* ContentView.swift */,
+				F13497122A14D44100137850 /* AppDepencyInjection.swift */,
 			);
 			path = App;
 			sourceTree = "<group>";
@@ -267,6 +274,7 @@
 				F1B928D32A13DB88002F5587 /* Components */,
 				F1B928D12A13DA2E002F5587 /* Theme.swift */,
 				F1FACF1A2A1428AA00DE72DF /* UIState.swift */,
+				F134970D2A14C4EE00137850 /* ThemeColors.xcassets */,
 			);
 			path = SwiftUIDesignSystem;
 			sourceTree = "<group>";
@@ -291,7 +299,7 @@
 		F1B928DF2A141242002F5587 /* Utils */ = {
 			isa = PBXGroup;
 			children = (
-				F1B928DD2A14123D002F5587 /* Decodable+Utils.swift */,
+				F1B928DD2A14123D002F5587 /* DecodableUtils.swift */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -349,7 +357,7 @@
 		F1B928EF2A141C2D002F5587 /* Templates */ = {
 			isa = PBXGroup;
 			children = (
-				F1B928F02A141C3B002F5587 /* BrochureTemplate.swift */,
+				F1B928F02A141C3B002F5587 /* BrochureTemplates.swift */,
 			);
 			path = Templates;
 			sourceTree = "<group>";
@@ -397,6 +405,7 @@
 			name = BonialCC;
 			packageProductDependencies = (
 				F1B928D72A13E43B002F5587 /* Kingfisher */,
+				F13497102A14D3A300137850 /* Factory */,
 			);
 			productName = BonialCC;
 			productReference = F1B9287B2A13B1FC002F5587 /* BonialCC.app */;
@@ -472,6 +481,7 @@
 			mainGroup = F1B928722A13B1FC002F5587;
 			packageReferences = (
 				F1B928D62A13E43B002F5587 /* XCRemoteSwiftPackageReference "Kingfisher" */,
+				F134970F2A14D3A300137850 /* XCRemoteSwiftPackageReference "Factory" */,
 			);
 			productRefGroup = F1B9287C2A13B1FC002F5587 /* Products */;
 			projectDirPath = "";
@@ -490,6 +500,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F1B928862A13B1FC002F5587 /* Preview Assets.xcassets in Resources */,
+				F134970E2A14C4EE00137850 /* ThemeColors.xcassets in Resources */,
 				F1B928832A13B1FC002F5587 /* Assets.xcassets in Resources */,
 				F1B928C72A13CDFE002F5587 /* challenge.json in Resources */,
 			);
@@ -520,14 +531,15 @@
 				F1B928812A13B1FC002F5587 /* ContentView.swift in Sources */,
 				F1B928BF2A13CD42002F5587 /* Brochure.swift in Sources */,
 				F1B928CE2A13D8F1002F5587 /* BrochureGridItemView.swift in Sources */,
+				F13497132A14D44100137850 /* AppDepencyInjection.swift in Sources */,
 				F1B928D22A13DA2E002F5587 /* Theme.swift in Sources */,
 				F1B928DA2A13EA4F002F5587 /* BrochureDetailView.swift in Sources */,
 				F1B928C22A13CD4B002F5587 /* BrochuresJSONDataSource.swift in Sources */,
-				F1B928DE2A14123D002F5587 /* Decodable+Utils.swift in Sources */,
+				F1B928DE2A14123D002F5587 /* DecodableUtils.swift in Sources */,
 				F1B928B42A13CC19002F5587 /* TaskResult.swift in Sources */,
 				F1B928B62A13CC20002F5587 /* JSONDataSource.swift in Sources */,
 				F1B928CA2A13D5E2002F5587 /* BrochureGridView.swift in Sources */,
-				F1B928F12A141C3B002F5587 /* BrochureTemplate.swift in Sources */,
+				F1B928F12A141C3B002F5587 /* BrochureTemplates.swift in Sources */,
 				F1B928D52A13DBB6002F5587 /* BImage.swift in Sources */,
 				F1B928BE2A13CD42002F5587 /* BrochureRepository.swift in Sources */,
 				F1B928CC2A13D5F2002F5587 /* BrochureGridViewModel.swift in Sources */,
@@ -867,6 +879,14 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
+		F134970F2A14D3A300137850 /* XCRemoteSwiftPackageReference "Factory" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/hmlongco/Factory";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.0.0;
+			};
+		};
 		F1B928D62A13E43B002F5587 /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/onevcat/Kingfisher.git";
@@ -878,6 +898,11 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
+		F13497102A14D3A300137850 /* Factory */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F134970F2A14D3A300137850 /* XCRemoteSwiftPackageReference "Factory" */;
+			productName = Factory;
+		};
 		F1B928D72A13E43B002F5587 /* Kingfisher */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = F1B928D62A13E43B002F5587 /* XCRemoteSwiftPackageReference "Kingfisher" */;

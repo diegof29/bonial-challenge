@@ -6,22 +6,36 @@
 //
 
 import Foundation
+import SwiftUI
 
-public struct Theme {
+public struct BTheme {
     
-    public struct Spacing {
+    public struct BSpacing {
         public let nothing: CGFloat
         public let small: CGFloat
         public let regular: CGFloat
         public let medium: CGFloat
         public let large: CGFloat
     }
+    
+    public struct BColorPalette {
+        public let primary: Color
+        public let surface: Color
         
-    public var spacing: Theme.Spacing
+        public let black: Color
+    }
+        
+    public var spacing: BSpacing
+    public var palette: BColorPalette
     public var cornerRadius: CGFloat
     
     init() {
-        self.spacing = Spacing(nothing: 0, small: 4, regular: 8, medium: 12, large: 20)
-        self.cornerRadius = 8
+        self.spacing = BSpacing(nothing: 0, small: 4, regular: 8, medium: 12, large: 20)
+        self.cornerRadius = 12
+        self.palette = BColorPalette(
+            primary: Color("primary"),
+            surface: Color("surface"),
+            black: Color("black")
+        )
     }
 }

@@ -13,7 +13,7 @@ class BrochureGridViewModel: ObservableObject {
     
     @Published var brochures: [Brochure] = []
     @Published var selectedBrochure: Brochure?
-    @Published var uiState: UIState = UIState()
+    @Published var uiState = UIState()
     
     init(repository: BrochureRepository) {
         self.repository = repository

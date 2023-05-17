@@ -26,13 +26,14 @@ struct BrochureDetailView: View {
                     .scaledToFit()
             }
         }
-        .frame(maxHeight: .infinity)
-        .ignoresSafeArea()
+        .frame(maxWidth: .infinity, maxHeight: .infinity)
         .background(
-            KFImage(brochure.content.imageUrl)
-                .resizable()
-                .scaledToFill()
-                .blur(radius: 100)
+            ZStack {
+                KFImage(brochure.content.imageUrl)
+                    .resizable()
+                    .scaledToFill()
+                    .blur(radius: 100, opaque: true)
+            }
         )
         .onTapGesture {
             onDismiss()
@@ -42,17 +43,6 @@ struct BrochureDetailView: View {
 
 struct BrochureDetailView_Previews: PreviewProvider {
     static var previews: some View {
-        BrochureDetailView(
-            brochure: Brochure(
-                contentType: "brochure",
-                content: Brochure.BrochureContent(
-                    id: 12,
-                    title: "WIEDER PREISE STREICHEN MACHT FREUDE",
-                    retailer: Brochure.BrochureContent.Retailer(id: 1, name: "REWE"),
-                    distance: 1.234,
-                    imageUrl: URL(string: "https://content-media.bonial.biz/c7512e39-7cdd-49a6-863a-ded0a109eefe/preview.jpg")
-                )
-            )
-        ) {}
+        BrochureDetailView(brochure: .template) {}
     }
 }

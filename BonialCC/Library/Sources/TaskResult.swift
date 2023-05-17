@@ -1,3 +1,9 @@
+//
+//  JSONDataSource.swift
+//
+//
+//  Created by Diego Pais on 16.05.23.
+//
 
 public enum TaskResult<T> {
     case success(data: T)

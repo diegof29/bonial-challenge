@@ -9,36 +9,63 @@ import SwiftUI
 
 struct BrochureGridView: View {
     
+    @Environment(\.horizontalSizeClass) var horizontalSizeClass
+    @Environment(\.verticalSizeClass) var verticalSizeClass
     @StateObject var viewModel: BrochureGridViewModel
     
-    let columns = [GridItem(.flexible()), GridItem(.flexible())]
+    // The requirement here is to support 3 columns in landscape mode
+    // Apple discourages to use landscape and portrait mode and instead use sizeClasses
+    // but not all iPhones are regular when in landascape, for example the iPhone 13 Pro is compact in landscape
+    // and the iPhone 13 Pro Plus is regular. So I will use a mix of both vertical and horizontal to detect if the regular
+    // UI should be displayed.
+    let columnsCompact = [
+        GridItem(.flexible(), alignment: .top),
+        GridItem(.flexible(), alignment: .top),
+    ]
+    let columnsRegular = [
+        GridItem(.flexible(), alignment: .top),
+        GridItem(.flexible(), alignment: .top),
+        GridItem(.flexible(), alignment: .top)
+    ]
+    
+    var isInLandscape: Bool {
+        return verticalSizeClass == .compact || horizontalSizeClass == .regular
+    }
     
     var body: some View {
-        if let selectedBrochure = viewModel.selectedBrochure {
-            BrochureDetailView(brochure: selectedBrochure) {
-                withAnimation {
-                    viewModel.didSelectBrochure(nil)
-                }
-            }
-            .accessibilityIdentifier("brochure-details-\(selectedBrochure.id)")
-        }else {
+        ZStack {
             NavigationStack {
                 ScrollView(.vertical, showsIndicators: false) {
-                    LazyVGrid(columns: columns, spacing: 20) {
+                    LazyVGrid(
+                        columns: isInLandscape ? columnsRegular : columnsCompact,
+                        spacing: 20
+                    ) {
                         ForEach(viewModel.brochures) { brochure in
-                            BrochureGridItemView(brochure: brochure) { b2 in
+                            BrochureGridItemView(brochure: brochure) { selectedBrochure in
                                 withAnimation {
-                                    viewModel.didSelectBrochure(b2)
+                                    viewModel.didSelectBrochure(selectedBrochure)
                                 }
                             }
                             .accessibilityIdentifier("brochure-\(brochure.id)")
                         }
                     }
+                    .padding(.top, 16)
                 }
                 .accessibilityIdentifier("brochures-list")
-                .padding(16)
+                .padding(.horizontal, 16)
                 .navigationTitle("Brochures")
+                .navigationBarTitleDisplayMode(.inline)
                 .task(viewModel.loadBrochures)
+            }
+            
+            if let selectedBrochure = viewModel.selectedBrochure {
+                BrochureDetailView(brochure: selectedBrochure) {
+                    withAnimation {
+                        viewModel.didSelectBrochure(nil)
+                    }
+                }
+                .accessibilityIdentifier("brochure-details-\(selectedBrochure.id)")
+                .ignoresSafeArea()
             }
         }
     }
@@ -49,7 +76,7 @@ struct BrochureListView_Previews: PreviewProvider {
         BrochureGridView(
             viewModel: BrochureGridViewModel(
                 repository: DefaultBrochureRepository(
-                    dataSource: JSONDataSource()
+                    dataSource: MockBrochureDataSource(brochures: [.premiumTemplate, .template, .template2km, .template1km])
                 )
             )
         )

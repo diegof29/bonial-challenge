@@ -1,5 +1,5 @@
 //
-//  File.swift
+//  JSONDataSource.swift
 //  
 //
 //  Created by Diego Pais on 16.05.23.
@@ -21,7 +21,7 @@ public struct JSONDataSource {
             return .failure(error: BError(message: "File not found"))
         }
         
-        let loadDataTask = Task(priority: .background) {
+        let loadDataTask = Task(priority: .high) {
             do {
                 let data = try Data(contentsOf: fileURL)
                 

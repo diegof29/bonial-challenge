@@ -38,6 +38,11 @@ public struct Brochure: Codable, Identifiable, Equatable {
         }
     }
     
+    public enum ItemContentType: String, Codable {
+        case brochure
+        case brochurePremium
+    }
+    
     public func hash(into hasher: inout Hasher) {
         return hasher.combine(id)
     }
@@ -45,6 +50,6 @@ public struct Brochure: Codable, Identifiable, Equatable {
     public var id: Int {
         return content.id
     }
-    public let contentType: String
+    public let contentType: ItemContentType
     public let content: BrochureContent
 }

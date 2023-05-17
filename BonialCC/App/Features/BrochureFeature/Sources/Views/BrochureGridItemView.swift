@@ -11,66 +11,56 @@ import Kingfisher
 struct BrochureGridItemView: View {
     
     let brochure: Brochure
-    let onTapped: ((Brochure) -> Void)?
+    let onSelectBrochure: ((Brochure) -> Void)?
 
-    init(brochure: Brochure, onTapped: ((Brochure) -> Void)? = nil) {
+    init(brochure: Brochure, onSelectBrochure: ((Brochure) -> Void)? = nil) {
         self.brochure = brochure
-        self.onTapped = onTapped
+        self.onSelectBrochure = onSelectBrochure
     }
     
     var body: some View {
         Button {
-            onTapped?(brochure)
+            onSelectBrochure?(brochure)
         } label: {
             VStack(alignment: .leading, spacing: 0) {
-                BImage(url: brochure.content.imageUrl, placeholder: nil)
+                BImage(url: brochure.content.imageUrl)
+                    .accessibilityIdentifier("brochure-image")
                     .clipShape(RoundedRectangle(cornerRadius: 12))
                     .overlay(RoundedRectangle(cornerRadius: 12).stroke(Color.gray))
-                    .accessibilityIdentifier("brochure-image")
+                    .frame(height: 280)
                 
                 VStack(alignment: .leading, spacing: 8) {
                     Text(brochure.content.title)
-                        .font(.body)
+                        .accessibilityIdentifier("brochure-title")
+                        .font(.subheadline)
                         .fontWeight(.bold)
                         .lineLimit(3, reservesSpace: true)
-                        .accessibilityIdentifier("brochure-title")
+                    
                     HStack(alignment: .top, spacing: 4) {
                         if let retailer = brochure.content.retailer {
                             Text(retailer.name)
-                                .font(.footnote)
                                 .accessibilityIdentifier("brochure-retailer-name")
+                                .font(.footnote)
                         }
                         Spacer()
                         Text(brochure.content.formattedDistance)
-                            .font(.caption)
                             .accessibilityIdentifier("brochure-distance")
+                            .font(.caption)
                     }
                 }
                 .padding(8.0)
             }
         }
+        .accessibilityIdentifier("brochure-\(brochure.id)")
         .buttonStyle(.plain)
         .frame(maxWidth: .infinity)
-        .accessibilityIdentifier("brochure-\(brochure.id)")
-//        .accessibilityAddTraits(.isButton)
     }
 }
 
 struct BrochureGridItemView_Previews: PreviewProvider {
     static var previews: some View {
         VStack {
-            BrochureGridItemView(
-                brochure: Brochure(
-                    contentType: "brochure",
-                    content: Brochure.BrochureContent(
-                        id: 12,
-                        title: "WIEDER PREISE STREICHEN MACHT FREUDE",
-                        retailer: Brochure.BrochureContent.Retailer(id: 1, name: "REWE"),
-                        distance: 1.234,
-                        imageUrl: URL(string: "https://content-media.bonial.biz/c7512e39-7cdd-49a6-863a-ded0a109eefe/preview.jpg")
-                    )
-                )
-            )
+            BrochureGridItemView(brochure: .template)
         }
         .frame(width: 200, height: 400)
         
