@@ -10,6 +10,7 @@
 		F134970E2A14C4EE00137850 /* ThemeColors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F134970D2A14C4EE00137850 /* ThemeColors.xcassets */; };
 		F13497112A14D3A300137850 /* Factory in Frameworks */ = {isa = PBXBuildFile; productRef = F13497102A14D3A300137850 /* Factory */; };
 		F13497132A14D44100137850 /* AppDepencyInjection.swift in Sources */ = {isa = PBXBuildFile; fileRef = F13497122A14D44100137850 /* AppDepencyInjection.swift */; };
+		F13497152A14D5AF00137850 /* BAppLaunchArgument.swift in Sources */ = {isa = PBXBuildFile; fileRef = F13497142A14D5AF00137850 /* BAppLaunchArgument.swift */; };
 		F1B9287F2A13B1FC002F5587 /* BonialCCApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1B9287E2A13B1FC002F5587 /* BonialCCApp.swift */; };
 		F1B928812A13B1FC002F5587 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1B928802A13B1FC002F5587 /* ContentView.swift */; };
 		F1B928832A13B1FC002F5587 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F1B928822A13B1FC002F5587 /* Assets.xcassets */; };
@@ -64,6 +65,7 @@
 /* Begin PBXFileReference section */
 		F134970D2A14C4EE00137850 /* ThemeColors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = ThemeColors.xcassets; sourceTree = "<group>"; };
 		F13497122A14D44100137850 /* AppDepencyInjection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDepencyInjection.swift; sourceTree = "<group>"; };
+		F13497142A14D5AF00137850 /* BAppLaunchArgument.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BAppLaunchArgument.swift; sourceTree = "<group>"; };
 		F1B9287B2A13B1FC002F5587 /* BonialCC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BonialCC.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F1B9287E2A13B1FC002F5587 /* BonialCCApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BonialCCApp.swift; sourceTree = "<group>"; };
 		F1B928802A13B1FC002F5587 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -192,6 +194,7 @@
 				F1B9287E2A13B1FC002F5587 /* BonialCCApp.swift */,
 				F1B928802A13B1FC002F5587 /* ContentView.swift */,
 				F13497122A14D44100137850 /* AppDepencyInjection.swift */,
+				F13497142A14D5AF00137850 /* BAppLaunchArgument.swift */,
 			);
 			path = App;
 			sourceTree = "<group>";
@@ -542,6 +545,7 @@
 				F1B928F12A141C3B002F5587 /* BrochureTemplates.swift in Sources */,
 				F1B928D52A13DBB6002F5587 /* BImage.swift in Sources */,
 				F1B928BE2A13CD42002F5587 /* BrochureRepository.swift in Sources */,
+				F13497152A14D5AF00137850 /* BAppLaunchArgument.swift in Sources */,
 				F1B928CC2A13D5F2002F5587 /* BrochureGridViewModel.swift in Sources */,
 				F1B928B22A13CC14002F5587 /* BError.swift in Sources */,
 				F1B9287F2A13B1FC002F5587 /* BonialCCApp.swift in Sources */,

@@ -6,6 +6,12 @@
 //
 
 import Foundation
+import Factory
+
+/// Registers repository protocol in Factory
+public extension Container {
+    var brochureRepository: Factory<BrochureRepository?> { self { nil } }
+}
 
 public protocol BrochureRepository {
     func fetch() async -> TaskResult<[Brochure]>

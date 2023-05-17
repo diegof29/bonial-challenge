@@ -54,7 +54,7 @@ final class BrochureTests: XCTestCase {
         """
         
         let expectedBrochure = Brochure(
-            contentType: "brochure",
+            contentType: .brochure,
             content: Brochure.BrochureContent(
                 id: 1262188890,
                 title: "WIEDER PREISE STREICHEN MACHT FREUDE",

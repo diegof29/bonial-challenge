@@ -9,7 +9,6 @@ import XCTest
 
 final class BonialCCUITests: XCTestCase {
 
-  
     func test_loadBrochuresAndDisplayDetail() throws {
         let app = XCUIApplication()
         
@@ -32,15 +31,15 @@ final class BonialCCUITests: XCTestCase {
         
         existingElement(firstBrochureGridItem.images["brochure-image"])
 
-        // Open details
+//      Open details
         firstBrochureGridItem.tap()
         
 //      The details view should exist
         let brochureDetailView = existingElement(app.images["brochure-details-1262188890"], timeout: 0.5)
         
-//        // Dismiss the details
+//      Dismiss the details
         brochureDetailView.firstMatch.tap()
-//
+
         existingElement(app.scrollViews["brochures-list"], timeout: 0.5)
     }
     

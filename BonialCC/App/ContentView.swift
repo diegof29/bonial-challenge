@@ -6,14 +6,13 @@
 //
 
 import SwiftUI
+import Factory
 
 struct ContentView: View {
     var body: some View {
         BrochureGridView(
             viewModel: BrochureGridViewModel(
-                repository: DefaultBrochureRepository(
-                    dataSource: JSONDataSource()
-                )
+                repository: Container.shared.brochureRepository()!
             )
         )
     }

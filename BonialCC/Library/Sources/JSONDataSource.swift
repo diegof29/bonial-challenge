@@ -6,6 +6,11 @@
 //
 
 import Foundation
+import Factory
+
+public extension Container {
+    var jsonDataSource: Factory<JSONDataSource?> { self { nil } }
+}
 
 public struct JSONDataSource {
     

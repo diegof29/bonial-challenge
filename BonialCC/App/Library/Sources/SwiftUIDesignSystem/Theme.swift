@@ -7,6 +7,11 @@
 
 import Foundation
 import SwiftUI
+import Factory
+
+public extension Container {
+    var theme: Factory<BTheme> { self { BTheme() }.cached }
+}
 
 public struct BTheme {
     

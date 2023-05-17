@@ -6,6 +6,11 @@
 //
 
 import Foundation
+import Factory
+
+public extension Container {
+    var brochureDataSource: Factory<BrochureDataSource?> { self { nil } }
+}
 
 public protocol BrochureDataSource {
     func fetchBrochures() async -> TaskResult<[Brochure]>
